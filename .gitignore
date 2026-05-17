@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Fusion 360 / Autodesk
+*.f3d
+*.f3z
+*.bak
+
+# macOS
+.DS_Store
+
+# VSCode (keep launch.json for Fusion debug attach; settings.json is
+# editor-local and may contain absolute user paths)
+.vscode/*
+!.vscode/launch.json
+**/.vscode/settings.json
+
+# Editor / misc
+*.swp
+*.log
+
+# Claude Code local state
+.claude/
+
+# Local environment / secrets
+*.env
+.env

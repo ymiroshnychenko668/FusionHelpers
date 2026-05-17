@@ -1,0 +1,6 @@
+[submodule "FusionAPIReference"]
+	path = FusionAPIReference
+	url = git@github.com:AutodeskFusion360/FusionAPIReference.git
+[submodule "Fusion360DevTools"]
+	path = Fusion360DevTools
+	url = git@github.com:AutodeskFusion360/Fusion360DevTools.git
