@@ -197,8 +197,9 @@ Helpers/
   pure `TemporaryBRepManager` (provably timeline-neutral). Idempotency =
   the root sketch marker (Fusion re-homes the extrudes into B's/A's
   components). Outer perimeter only; no Fusion user parameters. **S5/S6 +
-  the follow-ups objectively verified on the real v230 assembly (scratch
-  `saveAs`, production untouched):** Pipe A wall = S−c over the
+  the follow-ups objectively verified on a real production tube
+  assembly (scratch `saveAs`, production untouched):** Pipe A wall = S−c
+  over the
   calibration distance on BOTH sides of the joint (exposed + plugged-in),
   nominal beyond; B slot S−c over the engaged portion; penetration =
   offset even when offset < clearance_length, distance honored

@@ -66,6 +66,7 @@ class PipeJointResult:
         self.faces_affected = 0
         self.preview_only = False
         self.notes = []
+        self.error = ''   # set by the batch wrapper if this profile failed
 
 
 # ---- vector helpers -----------------------------------------------------
@@ -578,6 +579,18 @@ def _group_timeline(design, created, sketch, name):
             pass
 
 
+def _key(comp, body):
+    """A per-pipe-unique name key. Many tube components each contain a
+    body literally named 'Body1', so feature/sketch names keyed on the
+    body name alone collide across DIFFERENT pipes (multi-profile would
+    then falsely report 'already calibrated'). The component name is
+    unique within a Fusion design, so qualify by it."""
+    try:
+        return '%s_%s' % (comp.name, body.name)
+    except Exception:
+        return body.name
+
+
 def _find_sketch(root, name):
     """The root sketch with this deterministic name, or None. This is the
     canonical idempotency marker: it is created in ROOT (verified — only
@@ -693,9 +706,12 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
            o.x, o.y, o.z, axis.x, axis.y, axis.z))
 
     # Idempotency (canonical, detection-independent): the root sketch is
-    # the only feature that stays in root, it is A-named, and the failure
-    # rollback deletes it — so its presence == a previous run completed.
-    sk_name = 'PipeJointSketch_%s' % native_a.name
+    # the only feature that stays in root, it is A-keyed (component-
+    # qualified so distinct same-named bodies don't collide across a
+    # multi-profile run), and the failure rollback deletes it — so its
+    # presence == a previous run completed.
+    a_key = _key(comp_a, native_a)
+    sk_name = 'PipeJointSketch_%s' % a_key
     if _find_sketch(design.rootComponent, sk_name) is not None:
         msg = ('Pipe A "%s" is already calibrated (sketch "%s") — undo '
                'the previous Pipe Joint Calibration first.'
@@ -732,6 +748,8 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
 
     occ_b = _occ_of(proxy_b)
     native_b = _native_body(proxy_b)
+    comp_b = native_b.parentComponent
+    b_key = _key(comp_b, native_b)
     r.pipe_b_name = native_b.name
     if note:
         r.notes.append(note)
@@ -758,7 +776,7 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
            entry, offset, eff_len, depth))
 
     side = (clearance_side or 'both').lower()
-    sock_name = 'PipeJointSocket_%s' % native_b.name
+    sock_name = 'PipeJointSocket_%s' % b_key
 
     if preview_only:
         r.notes.append('Preview only — no model change.')
@@ -809,7 +827,7 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
             if deep > 1e-4:
                 f2 = _extrude(root, ring_p, CUT, deep, direction,
                               [proxy_b],
-                              'PipeJointSocketDeep_%s' % native_b.name,
+                              'PipeJointSocketDeep_%s' % b_key,
                               start_off_cm=ssign * eff_len)
                 created.append(f2)
                 affected += 1
@@ -831,7 +849,7 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
         # end face (parametric, on A's own body; the outward normal points
         # out of A toward B so a positive offset lengthens A into B).
         ext = _offset_face(comp_a, native_face, depth,
-                           'PipeJointExtendA_%s' % native_a.name)
+                           'PipeJointExtendA_%s' % a_key)
         created.append(ext)
         affected += 1
         r.notes.append('Pipe A extended %.2f mm into B.' % (depth * 10.0))
@@ -847,7 +865,7 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
         if side in ('both', 'a') and not skip_a:
             fa = _extrude(root, ring_p, CUT, eff_len, direction,
                           [face.body],
-                          'PipeJointReliefA_%s' % native_a.name,
+                          'PipeJointReliefA_%s' % a_key,
                           symmetric=True)
             created.append(fa)
             affected += 1
@@ -861,7 +879,7 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
         # computed; it never disturbs the geometry just produced).
         grp = _group_timeline(
             design, created, sk,
-            'PipeJoint_%s_%s' % (native_a.name, native_b.name))
+            'PipeJoint_%s_%s' % (a_key, b_key))
         log('timeline group: %s'
             % (repr(grp.name) if grp is not None else 'skipped (non-contiguous)'))
 
@@ -879,7 +897,7 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
                 r.notes.append('Created a component from Pipe B body.')
             jt = _rigid_joint(
                 design.rootComponent, occ_aj, occ_bj,
-                'PipeJointRigid_%s_%s' % (native_a.name, native_b.name))
+                'PipeJointRigid_%s_%s' % (a_key, b_key))
             if jt is not None:
                 r.notes.append('Rigid joint added between Pipe A and '
                                'Pipe B components.')
@@ -907,3 +925,42 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
             except Exception:  # pragma: no cover
                 pass
         raise
+
+
+def calibrate_pipe_joints(app, faces, offset, clearance, clearance_length,
+                          clearance_side='both', strict_multi=False,
+                          preview_only=False):
+    """Repeat the calibration for EACH selected Pipe A profile.
+
+    Returns a list of ``PipeJointResult`` (one per face, in selection
+    order). A profile that fails does NOT abort the batch — its message
+    is captured in that result's ``.error`` and the run continues (each
+    single calibration already rolls back its own partial features on
+    failure, so a failed profile leaves the model clean)."""
+    faces = list(faces)
+    banner('pipe_joint_calibration BATCH n=%d preview=%s'
+           % (len(faces), preview_only))
+    results = []
+    for idx, face in enumerate(faces):
+        try:
+            r = calibrate_pipe_joint(
+                app, face, offset, clearance, clearance_length,
+                clearance_side=clearance_side, strict_multi=strict_multi,
+                preview_only=preview_only)
+        except Exception as exc:  # pylint: disable=broad-except
+            r = PipeJointResult()
+            r.preview_only = preview_only
+            try:
+                b = face.body
+                r.pipe_a_name = (b.nativeObject.name
+                                 if b.assemblyContext else b.name)
+            except Exception:
+                r.pipe_a_name = 'profile %d' % (idx + 1)
+            r.error = str(exc)
+            log('BATCH profile %d (%s) FAILED: %s'
+                % (idx + 1, r.pipe_a_name, exc))
+        results.append(r)
+    ok = sum(1 for x in results if not x.error)
+    log('BATCH DONE: %d profiles, %d ok, %d failed'
+        % (len(results), ok, len(results) - ok))
+    return results

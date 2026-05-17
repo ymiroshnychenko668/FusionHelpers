@@ -1,9 +1,10 @@
 """Instrument: Pipe Joint Calibration.
 
-Select Pipe A's planar end profile face; the helper sockets the
-perpendicular Pipe B it runs into and adds a length-limited calibration
-relief band on Pipe A so milled parts always fit. Discovered
-automatically because this package contains entry.py exposing COMMAND.
+Select one or more Pipe A planar end profile faces; the helper sockets
+the perpendicular Pipe B each runs into and adds a length-limited
+calibration relief band on Pipe A so milled parts always fit. The
+operation is repeated per selected profile. Discovered automatically
+because this package contains entry.py exposing COMMAND.
 """
 
 import adsk.core
@@ -22,10 +23,11 @@ def _native(entity):
 class PipeJointCalibrationCommand(InstrumentCommand):
     CMD_ID = config.cmd_id('PipeJointCalibration')
     NAME = 'Pipe Joint Calibration'
-    TOOLTIP = ('Select Pipe A\'s flat end profile (square/rectangular '
-               'hollow tube). Cuts a socket into the perpendicular Pipe B '
-               'it meets and adds a calibration relief band on Pipe A so '
-               'milled joints always fit.')
+    TOOLTIP = ('Select one or more Pipe A flat end profiles '
+               '(square/rectangular hollow tube). For each, cuts a '
+               'socket into the perpendicular Pipe B it meets and adds a '
+               'calibration relief band on Pipe A so milled joints '
+               'always fit.')
 
     _FACE = 'endFace'
     _OFFSET = 'offsetSize'
@@ -39,10 +41,11 @@ class PipeJointCalibrationCommand(InstrumentCommand):
 
     def build_inputs(self, inputs: adsk.core.CommandInputs):
         face = inputs.addSelectionInput(
-            self._FACE, 'Pipe A end face',
-            'Select Pipe A\'s flat end profile face')
+            self._FACE, 'Pipe A end faces',
+            'Select one or more Pipe A flat end profile faces — the '
+            'operation is repeated for each')
         face.addSelectionFilter('SolidFaces')
-        face.setSelectionLimits(1, 1)
+        face.setSelectionLimits(1, 0)   # 1+, no upper limit (multi)
 
         app = adsk.core.Application.get()
         design = adsk.fusion.Design.cast(app.activeProduct)
@@ -75,11 +78,14 @@ class PipeJointCalibrationCommand(InstrumentCommand):
         app = adsk.core.Application.get()
 
         face_sel = inputs.itemById(self._FACE)
-        if face_sel.selectionCount != 1:
-            raise ValueError('Select exactly one planar end face of Pipe A.')
-        # Keep the selection AS-IS (an assembly proxy stays a proxy) so the
-        # pipeline works in world space; pipes.py handles native/context.
-        face = face_sel.selection(0).entity
+        if face_sel.selectionCount < 1:
+            raise ValueError('Select at least one planar end face of '
+                             'Pipe A.')
+        # Keep each selection AS-IS (an assembly proxy stays a proxy) so
+        # the pipeline works in world space; pipes.py handles
+        # native/context. The operation is repeated for every profile.
+        faces = [face_sel.selection(i).entity
+                 for i in range(face_sel.selectionCount)]
 
         offset = inputs.itemById(self._OFFSET).value
         clearance = inputs.itemById(self._CLR).value
@@ -88,24 +94,33 @@ class PipeJointCalibrationCommand(InstrumentCommand):
         strict_multi = inputs.itemById(self._STRICT).value
         preview_only = inputs.itemById(self._PREVIEW).value
 
-        result = pipes.calibrate_pipe_joint(
-            app, face, offset, clearance, clearance_length,
+        results = pipes.calibrate_pipe_joints(
+            app, faces, offset, clearance, clearance_length,
             clearance_side=side.split()[0].lower(),
             strict_multi=strict_multi, preview_only=preview_only)
 
-        head = ('Preview — no model change.\n' if result.preview_only
-                else '')
-        lines = [
-            f'Pipe A: "{result.pipe_a_name}"',
-            f'Pipe B: "{result.pipe_b_name or "(not detected)"}"',
-            f'Offset {result.offset_mm:.2f} mm, clearance '
-            f'{result.clearance_mm:.3f} mm over '
-            f'{result.band_length_mm:.2f} mm, '
-            f'{result.faces_affected} face(s).',
-        ]
-        if result.notes:
-            lines.append('Notes: ' + '; '.join(result.notes))
-        app.userInterface.messageBox(head + '\n'.join(lines),
+        ok = sum(1 for r in results if not r.error)
+        failed = len(results) - ok
+        head = ('Preview — no model change.\n' if preview_only else '')
+        head += '%d profile(s): %d succeeded%s\n' % (
+            len(results), ok,
+            (', %d failed' % failed) if failed else '')
+        blocks = []
+        for i, r in enumerate(results, 1):
+            if r.error:
+                blocks.append('#%d  "%s" — FAILED: %s'
+                              % (i, r.pipe_a_name, r.error))
+                continue
+            txt = ('#%d  A:"%s"  B:"%s"  off %.2f / clr %.3f / dist '
+                   '%.2f mm  %d feat.'
+                   % (i, r.pipe_a_name,
+                      r.pipe_b_name or '(not detected)',
+                      r.offset_mm, r.clearance_mm, r.band_length_mm,
+                      r.faces_affected))
+            if r.notes:
+                txt += '\n     ' + '; '.join(r.notes)
+            blocks.append(txt)
+        app.userInterface.messageBox(head + '\n'.join(blocks),
                                      config.ADDIN_NAME)
 
 
