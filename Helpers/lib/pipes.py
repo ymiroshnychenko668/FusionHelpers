@@ -25,8 +25,8 @@ Every mutating op is a Cut-extrude (cross-occurrence via
 `participantBodies`, proxies accepted) or the proven end-face offset on
 Pipe A's native body — there is NO cross-occurrence Join (the historically
 hardest operation). Detection stays a pure `TemporaryBRepManager`
-measurement, so `preview_only` is provably timeline-neutral. Outer
-perimeter only; no Fusion user parameters.
+measurement (timeline-neutral). Outer perimeter only; no Fusion user
+parameters.
 """
 
 import adsk.core
@@ -64,7 +64,6 @@ class PipeJointResult:
         self.axis_dot = 0.0
         self.overlap_cm3 = 0.0
         self.faces_affected = 0
-        self.preview_only = False
         self.notes = []
         self.error = ''   # set by the batch wrapper if this profile failed
 
@@ -213,8 +212,8 @@ def _outer_frame(face):
 
 
 def _make_plug(tmp, frame, sgn, depth):
-    """Create a world-space solid box plug for one axis sign (detection /
-    preview only — never committed to the timeline)."""
+    """Create a world-space solid box plug for one axis sign (detection
+    only — never committed to the timeline)."""
     axis, o, d1, d2, a0, a1, b0, b1 = frame
     ca, cb = (a0 + a1) / 2.0, (b0 + b1) / 2.0
     center = adsk.core.Point3D.create(
@@ -591,18 +590,18 @@ def _key(comp, body):
         return body.name
 
 
-def _find_sketch(root, name):
-    """The root sketch with this deterministic name, or None. This is the
-    canonical idempotency marker: it is created in ROOT (verified — only
-    the sketch stays in root; Fusion re-homes each extrude to its
-    participant body's component), it is A-named so it needs no Pipe B
-    re-detection, and the failure rollback deletes it — so its presence
-    means exactly 'a previous calibration completed'."""
-    sks = root.sketches
-    for i in range(sks.count):
-        if sks.item(i).name == name:
-            return sks.item(i)
-    return None
+def _end_tag(axis):
+    """Short, stable tag distinguishing the TWO ends of ONE pipe body.
+
+    A pipe is a single body with two end faces whose outward normals are
+    antiparallel; keying the idempotency marker by component+body alone
+    flags the OPPOSITE end (a genuinely different joint) as 'already
+    calibrated'. The selected end-face plane normal is stable across the
+    calibration (the extend only slides the face ALONG its normal, never
+    rotates it), so the two ends always get distinct (negated) tags while
+    re-selecting the same end stays identical."""
+    return 'e%+d%+d%+d' % (round(axis.x * 8), round(axis.y * 8),
+                           round(axis.z * 8))
 
 
 def _ensure_component(native_body, occ):
@@ -656,8 +655,8 @@ def _rigid_joint(root, occ_a, occ_b, name):
 # ---- orchestration ------------------------------------------------------
 
 def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
-                         clearance_side='both', strict_multi=False,
-                         preview_only=False) -> PipeJointResult:
+                         clearance_side='both',
+                         strict_multi=False) -> PipeJointResult:
     """Socket Pipe B for Pipe A's end and relieve the joint band.
 
     ``offset``/``clearance``/``clearance_length`` are plain CENTIMETRE
@@ -666,9 +665,8 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
     internal Fusion-operation failure.
     """
     banner('pipe_joint_calibration')
-    log('input offset=%.4f clr=%.4f len=%.4f side=%s preview=%s'
-        % (offset, clearance, clearance_length, clearance_side,
-           preview_only))
+    log('input offset=%.4f clr=%.4f len=%.4f side=%s'
+        % (offset, clearance, clearance_length, clearance_side))
 
     if offset is None or abs(offset) <= 1e-5:
         raise ValueError('Offset size must be non-zero.')
@@ -700,27 +698,18 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
     r.pipe_a_name = native_a.name
     r.offset_mm = offset * 10.0
     r.clearance_mm = clearance * 10.0
-    r.preview_only = preview_only
     log('pipe A native=%r occ=%s o=(%.2f,%.2f,%.2f) axis=(%.3f,%.3f,%.3f)'
         % (native_a.name, occ_a.fullPathName if occ_a else None,
            o.x, o.y, o.z, axis.x, axis.y, axis.z))
 
-    # Idempotency (canonical, detection-independent): the root sketch is
-    # the only feature that stays in root, it is A-keyed (component-
-    # qualified so distinct same-named bodies don't collide across a
-    # multi-profile run), and the failure rollback deletes it — so its
-    # presence == a previous run completed.
-    a_key = _key(comp_a, native_a)
+    # Per-pipe/per-end unique name key (component + body so distinct
+    # same-named bodies don't collide across a multi-profile run, PLUS an
+    # end tag so the two ends of one pipe get distinct feature names).
+    # NOTE: no "already calibrated" gate — re-running on an already
+    # calibrated end is allowed and will stack another socket/relief/
+    # joint (manage with undo); names may then repeat (Fusion permits it).
+    a_key = '%s_%s' % (_key(comp_a, native_a), _end_tag(axis))
     sk_name = 'PipeJointSketch_%s' % a_key
-    if _find_sketch(design.rootComponent, sk_name) is not None:
-        msg = ('Pipe A "%s" is already calibrated (sketch "%s") — undo '
-               'the previous Pipe Joint Calibration first.'
-               % (native_a.name, sk_name))
-        if preview_only:
-            r.notes.append(msg)
-            log('idempotency: already calibrated (preview)')
-            return r
-        raise ValueError(msg)
 
     tmp = adsk.fusion.TemporaryBRepManager.get()
     skip = {face.body.entityToken, native_a.entityToken}
@@ -777,11 +766,6 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
 
     side = (clearance_side or 'both').lower()
     sock_name = 'PipeJointSocket_%s' % b_key
-
-    if preview_only:
-        r.notes.append('Preview only — no model change.')
-        log('DONE (preview) B=%r' % native_b.name)
-        return r
 
     root = design.rootComponent
     CUT = adsk.fusion.FeatureOperations.CutFeatureOperation
@@ -928,8 +912,7 @@ def calibrate_pipe_joint(app, face, offset, clearance, clearance_length,
 
 
 def calibrate_pipe_joints(app, faces, offset, clearance, clearance_length,
-                          clearance_side='both', strict_multi=False,
-                          preview_only=False):
+                          clearance_side='both', strict_multi=False):
     """Repeat the calibration for EACH selected Pipe A profile.
 
     Returns a list of ``PipeJointResult`` (one per face, in selection
@@ -938,18 +921,15 @@ def calibrate_pipe_joints(app, faces, offset, clearance, clearance_length,
     single calibration already rolls back its own partial features on
     failure, so a failed profile leaves the model clean)."""
     faces = list(faces)
-    banner('pipe_joint_calibration BATCH n=%d preview=%s'
-           % (len(faces), preview_only))
+    banner('pipe_joint_calibration BATCH n=%d' % len(faces))
     results = []
     for idx, face in enumerate(faces):
         try:
             r = calibrate_pipe_joint(
                 app, face, offset, clearance, clearance_length,
-                clearance_side=clearance_side, strict_multi=strict_multi,
-                preview_only=preview_only)
+                clearance_side=clearance_side, strict_multi=strict_multi)
         except Exception as exc:  # pylint: disable=broad-except
             r = PipeJointResult()
-            r.preview_only = preview_only
             try:
                 b = face.body
                 r.pipe_a_name = (b.nativeObject.name

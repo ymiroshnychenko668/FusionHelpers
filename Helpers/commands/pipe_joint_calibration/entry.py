@@ -7,6 +7,9 @@ operation is repeated per selected profile. Discovered automatically
 because this package contains entry.py exposing COMMAND.
 """
 
+import json
+import os
+
 import adsk.core
 import adsk.fusion
 
@@ -18,6 +21,33 @@ from lib import pipes
 def _native(entity):
     """Native object for an occurrence-proxy entity, else the entity."""
     return entity.nativeObject if entity.assemblyContext else entity
+
+
+# Last-used dialog values are persisted here (per user, outside the repo,
+# survives Fusion restarts AND add-in reloads) so the dialog prefills
+# with the previous run's parameters. All IO is best-effort: a missing
+# or corrupt file simply falls back to the built-in defaults, and a
+# save failure never disrupts the command.
+_PREFS_PATH = os.path.join(os.path.expanduser('~'), '.fusionhelpers',
+                           'pipe_joint_calibration.json')
+
+
+def _load_prefs():
+    try:
+        with open(_PREFS_PATH, 'r', encoding='utf-8') as fh:
+            data = json.load(fh)
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def _save_prefs(prefs):
+    try:
+        os.makedirs(os.path.dirname(_PREFS_PATH), exist_ok=True)
+        with open(_PREFS_PATH, 'w', encoding='utf-8') as fh:
+            json.dump(prefs, fh, indent=2)
+    except Exception:
+        pass
 
 
 class PipeJointCalibrationCommand(InstrumentCommand):
@@ -35,7 +65,6 @@ class PipeJointCalibrationCommand(InstrumentCommand):
     _CLRLEN = 'clearanceLength'
     _SIDE = 'clearanceSide'
     _STRICT = 'strictMulti'
-    _PREVIEW = 'previewOnly'
 
     _SIDES = ('Both', 'A only', 'B only')
 
@@ -51,28 +80,39 @@ class PipeJointCalibrationCommand(InstrumentCommand):
         design = adsk.fusion.Design.cast(app.activeProduct)
         units = design.unitsManager.defaultLengthUnits if design else 'mm'
 
-        inputs.addValueInput(self._OFFSET, 'Offset size (penetration)',
-                             units,
-                             adsk.core.ValueInput.createByString('30 mm'))
-        inputs.addValueInput(self._CLR, 'Calibration clearance', units,
-                             adsk.core.ValueInput.createByString('0.5 mm'))
+        # Prefill from the previous run's values (else built-in defaults).
+        prefs = _load_prefs()
+
+        def _expr(key, default):
+            v = prefs.get(key)
+            return v if isinstance(v, str) and v.strip() else default
+
+        inputs.addValueInput(
+            self._OFFSET, 'Offset size (penetration)', units,
+            adsk.core.ValueInput.createByString(_expr('offset', '30 mm')))
+        inputs.addValueInput(
+            self._CLR, 'Calibration clearance', units,
+            adsk.core.ValueInput.createByString(_expr('clearance',
+                                                      '0.5 mm')))
         inputs.addValueInput(
             self._CLRLEN, 'Calibration distance (band length)', units,
-            adsk.core.ValueInput.createByString('10 mm'))
+            adsk.core.ValueInput.createByString(
+                _expr('clearance_length', '10 mm')))
 
+        saved_side = prefs.get('side')
+        if saved_side not in self._SIDES:
+            saved_side = 'Both'
         side = inputs.addDropDownCommandInput(
             self._SIDE, 'Clearance side',
             adsk.core.DropDownStyles.TextListDropDownStyle)
         for name in self._SIDES:
-            side.listItems.add(name, name == 'Both', '')
+            side.listItems.add(name, name == saved_side, '')
         side.tooltip = ('"Both" relieves Pipe A and enlarges Pipe B\'s '
                         'socket — total gap is about 2 x clearance.')
 
         inputs.addBoolValueInput(self._STRICT, 'Fail if multiple bodies',
-                                 True, '', False)
-        inputs.addBoolValueInput(self._PREVIEW,
-                                 'Preview only (no model change)',
-                                 True, '', False)
+                                 True, '',
+                                 bool(prefs.get('strict', False)))
 
     def on_execute(self, inputs: adsk.core.CommandInputs):
         app = adsk.core.Application.get()
@@ -92,17 +132,26 @@ class PipeJointCalibrationCommand(InstrumentCommand):
         clearance_length = inputs.itemById(self._CLRLEN).value
         side = self._SIDES[inputs.itemById(self._SIDE).selectedItem.index]
         strict_multi = inputs.itemById(self._STRICT).value
-        preview_only = inputs.itemById(self._PREVIEW).value
+
+        # Persist these values now (before running) so the next dialog
+        # open prefills them even if this run errors. Store the unit-
+        # bearing expressions so prefill round-trips exactly.
+        _save_prefs({
+            'offset': inputs.itemById(self._OFFSET).expression,
+            'clearance': inputs.itemById(self._CLR).expression,
+            'clearance_length': inputs.itemById(self._CLRLEN).expression,
+            'side': side,
+            'strict': strict_multi,
+        })
 
         results = pipes.calibrate_pipe_joints(
             app, faces, offset, clearance, clearance_length,
             clearance_side=side.split()[0].lower(),
-            strict_multi=strict_multi, preview_only=preview_only)
+            strict_multi=strict_multi)
 
         ok = sum(1 for r in results if not r.error)
         failed = len(results) - ok
-        head = ('Preview — no model change.\n' if preview_only else '')
-        head += '%d profile(s): %d succeeded%s\n' % (
+        head = '%d profile(s): %d succeeded%s\n' % (
             len(results), ok,
             (', %d failed' % failed) if failed else '')
         blocks = []

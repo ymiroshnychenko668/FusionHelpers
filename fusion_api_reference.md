@@ -1,0 +1,1498 @@
+# Fusion 360 API Reference — Object Tree
+
+Scraped from the Fusion API Reference Manual TOC (`/view/fusion360/ENU/data/toctree.json`).
+Each link points to the object's detail page. Full member-level links are in `fusion_api_reference.json`.
+
+## Objects (1228)
+
+- [AccessibilityAnalyses](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AccessibilityAnalyses.htm) — 6 members
+- [AccessibilityAnalysis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AccessibilityAnalysis.htm) — 9 members
+- [ActiveSelectionEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ActiveSelectionEvent.htm) — 7 members
+- [ActiveSelectionEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ActiveSelectionEventArgs.htm) — 5 members
+- [ActiveSelectionEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ActiveSelectionEventHandler.htm) — 1 members
+- [AdditiveFEAConvection 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFEAConvection.htm) — 4 members
+- [AdditiveFEADeckBuilder 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFEADeckBuilder.htm) — 27 members
+- [AdditiveFEADeckBuilderCard 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFEADeckBuilderCard.htm) — 5 members
+- [AdditiveFEAOperation 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFEAOperation.htm) — 32 members
+- [AdditiveFEAOperationInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFEAOperationInput.htm) — 16 members
+- [AdditiveFEASTLMap 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFEASTLMap.htm) — 4 members
+- [AdditiveFFFLimitsMachineElement](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFFFLimitsMachineElement.htm) — 13 members
+- [AdditivePlatformMachineElement](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditivePlatformMachineElement.htm) — 12 members
+- [AdditiveSetupUtility](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveSetupUtility.htm) — 6 members
+- [AllExtentDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AllExtentDefinition.htm) — 5 members
+- [AlongEdgeRipFeatureDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AlongEdgeRipFeatureDefinition.htm) — 5 members
+- [AlongPathTextDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AlongPathTextDefinition.htm) — 8 members
+- [Analyses](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Analyses.htm) — 15 members
+- [Analysis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Analysis.htm) — 9 members
+- [AngleExtentDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AngleExtentDefinition.htm) — 6 members
+- [AngleValueCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AngleValueCommandInput.htm) — 28 members
+- [APIPreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/APIPreferences.htm) — 8 members
+- [Appearance](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Appearance.htm) — 12 members
+- [Appearances](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Appearances.htm) — 8 members
+- [AppearanceTexture](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AppearanceTexture.htm) — 6 members
+- [AppearanceTextureProperty](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AppearanceTextureProperty.htm) — 9 members
+- [Application](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Application.htm) — 59 members
+- [ApplicationCommandEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ApplicationCommandEvent.htm) — 7 members
+- [ApplicationCommandEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ApplicationCommandEventArgs.htm) — 8 members
+- [ApplicationCommandEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ApplicationCommandEventHandler.htm) — 1 members
+- [ApplicationEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ApplicationEvent.htm) — 7 members
+- [ApplicationEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ApplicationEventArgs.htm) — 6 members
+- [ApplicationEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ApplicationEventHandler.htm) — 1 members
+- [ApplicationFolders](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ApplicationFolders.htm) — 10 members
+- [Arc2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Arc2D.htm) — 19 members
+- [Arc3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Arc3D.htm) — 21 members
+- [AreaProperties](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AreaProperties.htm) — 13 members
+- [Arrange2DDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Arrange2DDefinition.htm) — 10 members
+- [Arrange2DEnvelopeInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Arrange2DEnvelopeInput.htm) — 8 members
+- [Arrange2DPlaneEnvelopeInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Arrange2DPlaneEnvelopeInput.htm) — 15 members
+- [Arrange2DProfileOrFaceEnvelopeInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Arrange2DProfileOrFaceEnvelopeInput.htm) — 9 members
+- [Arrange3DDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Arrange3DDefinition.htm) — 5 members
+- [Arrange3DEnvelopeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Arrange3DEnvelopeDefinition.htm) — 15 members
+- [Arrange3DEnvelopeInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Arrange3DEnvelopeInput.htm) — 14 members
+- [Arrange3DResultEnvelope](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Arrange3DResultEnvelope.htm) — 8 members
+- [ArrangeComponent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeComponent.htm) — 16 members
+- [ArrangeComponents](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeComponents.htm) — 6 members
+- [ArrangeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeDefinition.htm) — 5 members
+- [ArrangeDefinition2DInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeDefinition2DInput.htm) — 10 members
+- [ArrangeDefinition3DInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeDefinition3DInput.htm) — 5 members
+- [ArrangeDefinitionInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeDefinitionInput.htm) — 5 members
+- [ArrangeEnvelopeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeEnvelopeDefinition.htm) — 8 members
+- [ArrangeEnvelopeInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeEnvelopeInput.htm) — 7 members
+- [ArrangeFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeFeature.htm) — 27 members
+- [ArrangeFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeFeatureInput.htm) — 9 members
+- [ArrangeFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeFeatures.htm) — 8 members
+- [ArrangeOccurrenceResult](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeOccurrenceResult.htm) — 6 members
+- [ArrangeOccurrenceResults](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeOccurrenceResults.htm) — 5 members
+- [ArrangePlaneEnvelopeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangePlaneEnvelopeDefinition.htm) — 15 members
+- [ArrangePlaneResultEnvelope](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangePlaneResultEnvelope.htm) — 8 members
+- [ArrangeProfileOrFaceEnvelopeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeProfileOrFaceEnvelopeDefinition.htm) — 9 members
+- [ArrangeProfileOrFaceResultEnvelope](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeProfileOrFaceResultEnvelope.htm) — 8 members
+- [ArrangeResultEnvelope](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeResultEnvelope.htm) — 7 members
+- [ArrangeResultEnvelopes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeResultEnvelopes.htm) — 5 members
+- [ArrangeSelection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeSelection.htm) — 20 members
+- [ArrangeSelections](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeSelections.htm) — 9 members
+- [AsBuiltJoint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AsBuiltJoint.htm) — 28 members
+- [AsBuiltJointInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AsBuiltJointInput.htm) — 14 members
+- [AsBuiltJointList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AsBuiltJointList.htm) — 6 members
+- [AsBuiltJoints](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AsBuiltJoints.htm) — 8 members
+- [AssemblyComponentGeometry 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AssemblyComponentGeometry.htm) — 5 members
+- [AssemblyConstraint 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AssemblyConstraint.htm) — 18 members
+- [AssemblyConstraintInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AssemblyConstraintInput.htm) — 4 members
+- [AssemblyConstraints 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AssemblyConstraints.htm) — 8 members
+- [AsymmetricFilletEdgeSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AsymmetricFilletEdgeSet.htm) — 11 members
+- [AsymmetricFilletEdgeSetInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AsymmetricFilletEdgeSetInput.htm) — 9 members
+- [AtCenterHolePositionDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AtCenterHolePositionDefinition.htm) — 5 members
+- [Attribute](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Attribute.htm) — 9 members
+- [Attributes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Attributes.htm) — 9 members
+- [AutoConstrainInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AutoConstrainInput.htm) — 5 members
+- [AutoConstrainResult 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AutoConstrainResult.htm) — 6 members
+- [BallJointMotion](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BallJointMotion.htm) — 17 members
+- [Base](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Base.htm) — 3 members
+- [BaseComponent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BaseComponent.htm) — 20 members
+- [BaseFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BaseFeature.htm) — 30 members
+- [BaseFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BaseFeatures.htm) — 7 members
+- [BeamNetwork 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BeamNetwork.htm) — 7 members
+- [BetweenPointsRipFeatureDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BetweenPointsRipFeatureDefinition.htm) — 8 members
+- [BooleanGraphNodeProperty 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BooleanGraphNodeProperty.htm) — 6 members
+- [BooleanParameterValue](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BooleanParameterValue.htm) — 5 members
+- [BooleanProperty](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BooleanProperty.htm) — 8 members
+- [BoolValueCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BoolValueCommandInput.htm) — 19 members
+- [BossFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BossFeature.htm) — 72 members
+- [BossFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BossFeatureInput.htm) — 12 members
+- [BossFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BossFeatures.htm) — 8 members
+- [BossFeatureSideInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BossFeatureSideInput.htm) — 45 members
+- [BossPositionDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BossPositionDefinition.htm) — 3 members
+- [BoundaryFillFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BoundaryFillFeature.htm) — 26 members
+- [BoundaryFillFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BoundaryFillFeatureInput.htm) — 10 members
+- [BoundaryFillFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BoundaryFillFeatures.htm) — 8 members
+- [BoundingBox2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BoundingBox2D.htm) — 11 members
+- [BoundingBox3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BoundingBox3D.htm) — 11 members
+- [BoxFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BoxFeature.htm) — 19 members
+- [BoxFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BoxFeatures.htm) — 6 members
+- [BRepBodies](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepBodies.htm) — 7 members
+- [BRepBody](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepBody.htm) — 52 members
+- [BRepBodyDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepBodyDefinition.htm) — 10 members
+- [BRepCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepCell.htm) — 6 members
+- [BRepCells](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepCells.htm) — 5 members
+- [BRepCoEdge](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepCoEdge.htm) — 17 members
+- [BRepCoEdgeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepCoEdgeDefinition.htm) — 5 members
+- [BRepCoEdgeDefinitions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepCoEdgeDefinitions.htm) — 6 members
+- [BRepCoEdges](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepCoEdges.htm) — 5 members
+- [BRepEdge](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepEdge.htm) — 25 members
+- [BRepEdgeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepEdgeDefinition.htm) — 8 members
+- [BRepEdges](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepEdges.htm) — 5 members
+- [BRepFace](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepFace.htm) — 27 members
+- [BRepFaceDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepFaceDefinition.htm) — 7 members
+- [BRepFaceDefinitions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepFaceDefinitions.htm) — 6 members
+- [BRepFaces](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepFaces.htm) — 5 members
+- [BRepLoop](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepLoop.htm) — 13 members
+- [BRepLoopDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepLoopDefinition.htm) — 4 members
+- [BRepLoopDefinitions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepLoopDefinitions.htm) — 6 members
+- [BRepLoops](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepLoops.htm) — 5 members
+- [BRepLump](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepLump.htm) — 18 members
+- [BRepLumpDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepLumpDefinition.htm) — 4 members
+- [BRepLumpDefinitions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepLumpDefinitions.htm) — 6 members
+- [BRepLumps](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepLumps.htm) — 5 members
+- [BRepShell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepShell.htm) — 20 members
+- [BRepShellDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepShellDefinition.htm) — 5 members
+- [BRepShellDefinitions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepShellDefinitions.htm) — 6 members
+- [BRepShells](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepShells.htm) — 5 members
+- [BRepVertex](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepVertex.htm) — 16 members
+- [BRepVertexDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepVertexDefinition.htm) — 4 members
+- [BRepVertices](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepVertices.htm) — 5 members
+- [BRepWire](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepWire.htm) — 12 members
+- [BRepWireDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepWireDefinition.htm) — 4 members
+- [BRepWireEdgeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepWireEdgeDefinition.htm) — 7 members
+- [BRepWireEdgeDefinitions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepWireEdgeDefinitions.htm) — 6 members
+- [BRepWires](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepWires.htm) — 5 members
+- [BrowserCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BrowserCommandInput.htm) — 19 members
+- [ButtonControlDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ButtonControlDefinition.htm) — 6 members
+- [ButtonRowCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ButtonRowCommandInput.htm) — 18 members
+- [C3MFExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/C3MFExportOptions.htm) — 14 members
+- [CadContours2dParameterValue](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CadContours2dParameterValue.htm) — 6 members
+- [CadMachineAvoidGroupsParameterValue](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CadMachineAvoidGroupsParameterValue.htm) — 6 members
+- [CadObjectParameterValue](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CadObjectParameterValue.htm) — 5 members
+- [CAM](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAM.htm) — 46 members
+- [CAM3MFExportMetadataOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAM3MFExportMetadataOptions.htm) — 11 members
+- [CAM3MFExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAM3MFExportOptions.htm) — 20 members
+- [CAM3MFExportStructure 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAM3MFExportStructure.htm) — 8 members
+- [CAMAdditiveBuildExportFilter](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMAdditiveBuildExportFilter.htm) — 7 members
+- [CAMAdditiveBuildExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMAdditiveBuildExportOptions.htm) — 10 members
+- [CAMAdditiveContainer](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMAdditiveContainer.htm) — 32 members
+- [CAMArrangeParameterValue](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMArrangeParameterValue.htm) — 6 members
+- [Camera](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Camera.htm) — 15 members
+- [CameraEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CameraEvent.htm) — 7 members
+- [CameraEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CameraEventArgs.htm) — 5 members
+- [CameraEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CameraEventHandler.htm) — 1 members
+- [CAMExportFuture](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMExportFuture.htm) — 8 members
+- [CAMExportManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMExportManager.htm) — 8 members
+- [CAMExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMExportOptions.htm) — 8 members
+- [CAMFolder](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMFolder.htm) — 42 members
+- [CAMFolders](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMFolders.htm) — 8 members
+- [CAMHoleRecognition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMHoleRecognition.htm) — 37 members
+- [CAMLibrary](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMLibrary.htm) — 12 members
+- [CAMLibraryManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMLibraryManager.htm) — 14 members
+- [CAMManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMManager.htm) — 7 members
+- [CAMParameter](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMParameter.htm) — 17 members
+- [CAMParameters](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMParameters.htm) — 7 members
+- [CAMPattern](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMPattern.htm) — 42 members
+- [CAMPatterns](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMPatterns.htm) — 7 members
+- [CAMTemplate](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMTemplate.htm) — 16 members
+- [CAMTemplateLibrary](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMTemplateLibrary.htm) — 16 members
+- [CAMTemplateOperationInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMTemplateOperationInput.htm) — 11 members
+- [CAMTemplateOperations](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMTemplateOperations.htm) — 8 members
+- [Canvas](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Canvas.htm) — 25 members
+- [CanvasEffects](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CanvasEffects.htm) — 10 members
+- [Canvases](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Canvases.htm) — 8 members
+- [CanvasInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CanvasInput.htm) — 14 members
+- [ChainSelection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChainSelection.htm) — 16 members
+- [ChamferEdgeSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChamferEdgeSet.htm) — 5 members
+- [ChamferEdgeSets](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChamferEdgeSets.htm) — 8 members
+- [ChamferFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChamferFeature.htm) — 30 members
+- [ChamferFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChamferFeatureInput.htm) — 11 members
+- [ChamferFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChamferFeatures.htm) — 9 members
+- [ChamferTypeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChamferTypeDefinition.htm) — 4 members
+- [CheckBoxControlDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CheckBoxControlDefinition.htm) — 7 members
+- [ChildOperationList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChildOperationList.htm) — 7 members
+- [ChoiceParameterValue](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChoiceParameterValue.htm) — 6 members
+- [ChoiceProperty](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChoiceProperty.htm) — 9 members
+- [ChordLengthFilletEdgeSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChordLengthFilletEdgeSet.htm) — 9 members
+- [ChordLengthFilletEdgeSetInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChordLengthFilletEdgeSetInput.htm) — 7 members
+- [Circle2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Circle2D.htm) — 14 members
+- [Circle3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Circle3D.htm) — 15 members
+- [CircularPatternConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CircularPatternConstraint.htm) — 18 members
+- [CircularPatternConstraintInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CircularPatternConstraintInput.htm) — 9 members
+- [CircularPatternFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CircularPatternFeature.htm) — 31 members
+- [CircularPatternFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CircularPatternFeatureInput.htm) — 10 members
+- [CircularPatternFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CircularPatternFeatures.htm) — 8 members
+- [ClearanceHoleDataQuery](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ClearanceHoleDataQuery.htm) — 8 members
+- [ClearanceHoleInfo](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ClearanceHoleInfo.htm) — 9 members
+- [CloudFileDialog](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CloudFileDialog.htm) — 12 members
+- [CloudFolderDialog](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CloudFolderDialog.htm) — 7 members
+- [CoilFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CoilFeature.htm) — 19 members
+- [CoilFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CoilFeatureInput.htm) — 21 members
+- [CoilFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CoilFeatures.htm) — 6 members
+- [CoincidentConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CoincidentConstraint.htm) — 13 members
+- [CoincidentToSurfaceConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CoincidentToSurfaceConstraint.htm) — 13 members
+- [CollinearConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CollinearConstraint.htm) — 13 members
+- [Color](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Color.htm) — 10 members
+- [ColorControlPoint 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ColorControlPoint.htm) — 6 members
+- [ColorControlPointMapGraphNodeProperty 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ColorControlPointMapGraphNodeProperty.htm) — 10 members
+- [ColorGraphNodeProperty 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ColorGraphNodeProperty.htm) — 6 members
+- [ColorProperty](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ColorProperty.htm) — 12 members
+- [CombineFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CombineFeature.htm) — 26 members
+- [CombineFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CombineFeatureInput.htm) — 9 members
+- [CombineFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CombineFeatures.htm) — 8 members
+- [Command](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Command.htm) — 50 members
+- [CommandControl](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CommandControl.htm) — 12 members
+- [CommandCreatedEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CommandCreatedEvent.htm) — 7 members
+- [CommandCreatedEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CommandCreatedEventArgs.htm) — 5 members
+- [CommandCreatedEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CommandCreatedEventHandler.htm) — 1 members
+- [CommandDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CommandDefinition.htm) — 13 members
+- [CommandDefinitions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CommandDefinitions.htm) — 9 members
+- [CommandEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CommandEvent.htm) — 7 members
+- [CommandEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CommandEventArgs.htm) — 9 members
+- [CommandEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CommandEventHandler.htm) — 1 members
+- [CommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CommandInput.htm) — 15 members
+- [CommandInputs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CommandInputs.htm) — 31 members
+- [CompatibilityPreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CompatibilityPreferences.htm) — 15 members
+- [Component](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Component.htm) — 78 members
+- [ComponentList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ComponentList.htm) — 5 members
+- [Components](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Components.htm) — 7 members
+- [ConcentricConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConcentricConstraint.htm) — 13 members
+- [Cone](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Cone.htm) — 14 members
+- [ConfigurationAppearanceCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationAppearanceCell.htm) — 6 members
+- [ConfigurationAppearanceColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationAppearanceColumn.htm) — 13 members
+- [ConfigurationAppearanceColumns](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationAppearanceColumns.htm) — 7 members
+- [ConfigurationAppearanceTable](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationAppearanceTable.htm) — 10 members
+- [ConfigurationCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationCell.htm) — 4 members
+- [ConfigurationColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationColumn.htm) — 8 members
+- [ConfigurationColumns](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationColumns.htm) — 15 members
+- [ConfigurationCustomThemeTable](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationCustomThemeTable.htm) — 11 members
+- [ConfigurationCustomThemeTables](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationCustomThemeTables.htm) — 6 members
+- [ConfigurationFeatureAspectBooleanCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationFeatureAspectBooleanCell.htm) — 6 members
+- [ConfigurationFeatureAspectColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationFeatureAspectColumn.htm) — 14 members
+- [ConfigurationFeatureAspectStringCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationFeatureAspectStringCell.htm) — 6 members
+- [ConfigurationFuture](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationFuture.htm) — 4 members
+- [ConfigurationInsertCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationInsertCell.htm) — 6 members
+- [ConfigurationInsertColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationInsertColumn.htm) — 13 members
+- [ConfigurationInsertStandardDesignCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationInsertStandardDesignCell.htm) — 6 members
+- [ConfigurationInsertStandardDesignColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationInsertStandardDesignColumn.htm) — 14 members
+- [ConfigurationJointSnap](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationJointSnap.htm) — 6 members
+- [ConfigurationJointSnapCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationJointSnapCell.htm) — 6 members
+- [ConfigurationJointSnapColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationJointSnapColumn.htm) — 16 members
+- [ConfigurationJointSnaps](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationJointSnaps.htm) — 7 members
+- [ConfigurationMaterialCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationMaterialCell.htm) — 6 members
+- [ConfigurationMaterialColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationMaterialColumn.htm) — 13 members
+- [ConfigurationMaterialColumns](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationMaterialColumns.htm) — 7 members
+- [ConfigurationMaterialTable](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationMaterialTable.htm) — 10 members
+- [ConfigurationParameterCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationParameterCell.htm) — 9 members
+- [ConfigurationParameterColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationParameterColumn.htm) — 13 members
+- [ConfigurationPlasticRuleCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationPlasticRuleCell.htm) — 6 members
+- [ConfigurationPlasticRuleColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationPlasticRuleColumn.htm) — 13 members
+- [ConfigurationPlasticRuleColumns](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationPlasticRuleColumns.htm) — 7 members
+- [ConfigurationPlasticRuleTable](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationPlasticRuleTable.htm) — 10 members
+- [ConfigurationPropertyCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationPropertyCell.htm) — 6 members
+- [ConfigurationPropertyColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationPropertyColumn.htm) — 13 members
+- [ConfigurationReplaceDesign](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationReplaceDesign.htm) — 6 members
+- [ConfigurationReplaceDesigns](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationReplaceDesigns.htm) — 7 members
+- [ConfigurationRow](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationRow.htm) — 13 members
+- [ConfigurationRows](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationRows.htm) — 8 members
+- [ConfigurationSheetMetalRuleCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationSheetMetalRuleCell.htm) — 6 members
+- [ConfigurationSheetMetalRuleColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationSheetMetalRuleColumn.htm) — 14 members
+- [ConfigurationSheetMetalRuleColumns](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationSheetMetalRuleColumns.htm) — 7 members
+- [ConfigurationSheetMetalRuleTable](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationSheetMetalRuleTable.htm) — 10 members
+- [ConfigurationSuppressCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationSuppressCell.htm) — 6 members
+- [ConfigurationSuppressColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationSuppressColumn.htm) — 13 members
+- [ConfigurationTable](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationTable.htm) — 6 members
+- [ConfigurationThemeCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationThemeCell.htm) — 6 members
+- [ConfigurationThemeColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationThemeColumn.htm) — 13 members
+- [ConfigurationTopTable](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationTopTable.htm) — 15 members
+- [ConfigurationVisibilityCell](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationVisibilityCell.htm) — 6 members
+- [ConfigurationVisibilityColumn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationVisibilityColumn.htm) — 13 members
+- [ConstantRadiusFilletEdgeSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstantRadiusFilletEdgeSet.htm) — 9 members
+- [ConstantRadiusFilletEdgeSetInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstantRadiusFilletEdgeSetInput.htm) — 7 members
+- [ConstructionAxes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionAxes.htm) — 9 members
+- [ConstructionAxis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionAxis.htm) — 24 members
+- [ConstructionAxisByLineDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionAxisByLineDefinition.htm) — 5 members
+- [ConstructionAxisCircularFaceDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionAxisCircularFaceDefinition.htm) — 5 members
+- [ConstructionAxisDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionAxisDefinition.htm) — 4 members
+- [ConstructionAxisEdgeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionAxisEdgeDefinition.htm) — 5 members
+- [ConstructionAxisInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionAxisInput.htm) — 12 members
+- [ConstructionAxisNormalToFaceAtPointDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionAxisNormalToFaceAtPointDefinition.htm) — 7 members
+- [ConstructionAxisPerpendicularAtPointDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionAxisPerpendicularAtPointDefinition.htm) — 7 members
+- [ConstructionAxisTwoPlaneDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionAxisTwoPlaneDefinition.htm) — 7 members
+- [ConstructionAxisTwoPointDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionAxisTwoPointDefinition.htm) — 7 members
+- [ConstructionPlane](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlane.htm) — 26 members
+- [ConstructionPlaneAtAngleDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlaneAtAngleDefinition.htm) — 8 members
+- [ConstructionPlaneByPlaneDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlaneByPlaneDefinition.htm) — 5 members
+- [ConstructionPlaneDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlaneDefinition.htm) — 4 members
+- [ConstructionPlaneDistanceOnPathDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlaneDistanceOnPathDefinition.htm) — 7 members
+- [ConstructionPlaneInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlaneInput.htm) — 15 members
+- [ConstructionPlaneMidplaneDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlaneMidplaneDefinition.htm) — 7 members
+- [ConstructionPlaneOffsetDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlaneOffsetDefinition.htm) — 7 members
+- [ConstructionPlaneOffsetThroughPointDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlaneOffsetThroughPointDefinition.htm) — 7 members
+- [ConstructionPlanes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlanes.htm) — 9 members
+- [ConstructionPlaneTangentAtPointDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlaneTangentAtPointDefinition.htm) — 7 members
+- [ConstructionPlaneTangentDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlaneTangentDefinition.htm) — 8 members
+- [ConstructionPlaneThreePointsDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlaneThreePointsDefinition.htm) — 8 members
+- [ConstructionPlaneTwoEdgesDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPlaneTwoEdgesDefinition.htm) — 7 members
+- [ConstructionPoint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPoint.htm) — 24 members
+- [ConstructionPointCenterDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPointCenterDefinition.htm) — 5 members
+- [ConstructionPointDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPointDefinition.htm) — 4 members
+- [ConstructionPointEdgePlaneDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPointEdgePlaneDefinition.htm) — 7 members
+- [ConstructionPointInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPointInput.htm) — 10 members
+- [ConstructionPointPointDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPointPointDefinition.htm) — 5 members
+- [ConstructionPoints](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPoints.htm) — 9 members
+- [ConstructionPointThreePlanesDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPointThreePlanesDefinition.htm) — 8 members
+- [ConstructionPointTwoEdgesDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConstructionPointTwoEdgesDefinition.htm) — 7 members
+- [ContactSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ContactSet.htm) — 7 members
+- [ContactSets](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ContactSets.htm) — 7 members
+- [ControlDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ControlDefinition.htm) — 6 members
+- [ControllerConfigurationMachineElement](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ControllerConfigurationMachineElement.htm) — 11 members
+- [CopyDesignFileInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CopyDesignFileInput.htm) — 6 members
+- [CopyFileInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CopyFileInput.htm) — 4 members
+- [CopyPasteBodies](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CopyPasteBodies.htm) — 7 members
+- [CopyPasteBody](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CopyPasteBody.htm) — 20 members
+- [CornerClosureFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CornerClosureFeature.htm) — 23 members
+- [CornerClosureFeatureDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CornerClosureFeatureDefinition.htm) — 8 members
+- [CornerClosureFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CornerClosureFeatureInput.htm) — 8 members
+- [CornerClosureFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CornerClosureFeatures.htm) — 8 members
+- [CornerClosureInputDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CornerClosureInputDefinition.htm) — 7 members
+- [CreateFromCAMTemplateInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CreateFromCAMTemplateInput.htm) — 6 members
+- [CurvatureCombAnalyses](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CurvatureCombAnalyses.htm) — 6 members
+- [CurvatureCombAnalysis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CurvatureCombAnalysis.htm) — 9 members
+- [CurvatureMapAnalyses](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CurvatureMapAnalyses.htm) — 6 members
+- [CurvatureMapAnalysis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CurvatureMapAnalysis.htm) — 9 members
+- [Curve2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Curve2D.htm) — 6 members
+- [Curve3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Curve3D.htm) — 6 members
+- [Curve3DPath 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Curve3DPath.htm) — 5 members
+- [CurveEvaluator2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CurveEvaluator2D.htm) — 22 members
+- [CurveEvaluator3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CurveEvaluator3D.htm) — 22 members
+- [CurveSelection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CurveSelection.htm) — 9 members
+- [CurveSelections](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CurveSelections.htm) — 14 members
+- [CustomEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomEvent.htm) — 8 members
+- [CustomEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomEventArgs.htm) — 5 members
+- [CustomEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomEventHandler.htm) — 1 members
+- [CustomFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomFeature.htm) — 27 members
+- [CustomFeatureDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomFeatureDefinition.htm) — 9 members
+- [CustomFeatureDependencies 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomFeatureDependencies.htm) — 8 members
+- [CustomFeatureDependency 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomFeatureDependency.htm) — 7 members
+- [CustomFeatureEvent 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomFeatureEvent.htm) — 7 members
+- [CustomFeatureEventArgs 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomFeatureEventArgs.htm) — 6 members
+- [CustomFeatureEventHandler 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomFeatureEventHandler.htm) — 1 members
+- [CustomFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomFeatureInput.htm) — 7 members
+- [CustomFeatureParameter 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomFeatureParameter.htm) — 24 members
+- [CustomFeatureParameters 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomFeatureParameters.htm) — 6 members
+- [CustomFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomFeatures.htm) — 8 members
+- [CustomGraphicsAppearanceColorEffect](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsAppearanceColorEffect.htm) — 5 members
+- [CustomGraphicsBasicMaterialColorEffect](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsBasicMaterialColorEffect.htm) — 10 members
+- [CustomGraphicsBillBoard](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsBillBoard.htm) — 7 members
+- [CustomGraphicsBRepBody](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsBRepBody.htm) — 23 members
+- [CustomGraphicsColorEffect](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsColorEffect.htm) — 3 members
+- [CustomGraphicsCoordinates](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsCoordinates.htm) — 11 members
+- [CustomGraphicsCurve](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsCurve.htm) — 23 members
+- [CustomGraphicsEntity](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsEntity.htm) — 19 members
+- [CustomGraphicsGroup](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsGroup.htm) — 29 members
+- [CustomGraphicsGroups](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsGroups.htm) — 6 members
+- [CustomGraphicsLines](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsLines.htm) — 27 members
+- [CustomGraphicsMesh](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsMesh.htm) — 24 members
+- [CustomGraphicsPointSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsPointSet.htm) — 23 members
+- [CustomGraphicsShowThroughColorEffect](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsShowThroughColorEffect.htm) — 6 members
+- [CustomGraphicsSolidColorEffect](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsSolidColorEffect.htm) — 5 members
+- [CustomGraphicsText](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsText.htm) — 28 members
+- [CustomGraphicsVertexColorEffect](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsVertexColorEffect.htm) — 4 members
+- [CustomGraphicsViewPlacement](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsViewPlacement.htm) — 7 members
+- [CustomGraphicsViewScale](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsViewScale.htm) — 6 members
+- [CustomNamedValues 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomNamedValues.htm) — 9 members
+- [CustomSDFCallbackEventHandler 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomSDFCallbackEventHandler.htm) — 2 members
+- [CutPasteBodies](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CutPasteBodies.htm) — 7 members
+- [CutPasteBody](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CutPasteBody.htm) — 20 members
+- [Cylinder](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Cylinder.htm) — 13 members
+- [CylinderFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CylinderFeature.htm) — 19 members
+- [CylinderFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CylinderFeatures.htm) — 6 members
+- [CylindricalJointMotion](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CylindricalJointMotion.htm) — 11 members
+- [Data](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Data.htm) — 13 members
+- [DataComponent 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataComponent.htm) — 8 members
+- [DataEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataEvent.htm) — 7 members
+- [DataEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataEventArgs.htm) — 7 members
+- [DataEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataEventHandler.htm) — 1 members
+- [DataFile](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataFile.htm) — 50 members
+- [DataFileFuture](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataFileFuture.htm) — 5 members
+- [DataFiles](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataFiles.htm) — 7 members
+- [DataFolder](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataFolder.htm) — 13 members
+- [DataFolders](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataFolders.htm) — 9 members
+- [DataHub](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataHub.htm) — 11 members
+- [DataHubs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataHubs.htm) — 7 members
+- [DataObject](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataObject.htm) — 6 members
+- [DataObjectFuture](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataObjectFuture.htm) — 5 members
+- [DataProject](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataProject.htm) — 7 members
+- [DataProjects](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DataProjects.htm) — 8 members
+- [Decal](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Decal.htm) — 21 members
+- [DecalInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DecalInput.htm) — 9 members
+- [Decals](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Decals.htm) — 8 members
+- [DefaultUnitsPreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DefaultUnitsPreferences.htm) — 4 members
+- [DefaultUnitsPreferencesCollection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DefaultUnitsPreferencesCollection.htm) — 6 members
+- [DeleteFaceFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DeleteFaceFeature.htm) — 22 members
+- [DeleteFaceFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DeleteFaceFeatures.htm) — 7 members
+- [DerivedParameter](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DerivedParameter.htm) — 17 members
+- [DeriveFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DeriveFeature.htm) — 32 members
+- [DeriveFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DeriveFeatureInput.htm) — 9 members
+- [DeriveFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DeriveFeatures.htm) — 8 members
+- [Design](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Design.htm) — 57 members
+- [DirectionCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DirectionCommandInput.htm) — 20 members
+- [DistanceAndAngleChamferEdgeSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DistanceAndAngleChamferEdgeSet.htm) — 9 members
+- [DistanceAndAngleChamferTypeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DistanceAndAngleChamferTypeDefinition.htm) — 6 members
+- [DistanceExtentDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DistanceExtentDefinition.htm) — 6 members
+- [DistanceValueCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DistanceValueCommandInput.htm) — 27 members
+- [Document](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Document.htm) — 26 members
+- [DocumentEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DocumentEvent.htm) — 7 members
+- [DocumentEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DocumentEventArgs.htm) — 8 members
+- [DocumentEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DocumentEventHandler.htm) — 1 members
+- [DocumentReference](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DocumentReference.htm) — 9 members
+- [DocumentReferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DocumentReferences.htm) — 5 members
+- [Documents](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Documents.htm) — 8 members
+- [DocumentStockMaterialLibrary 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DocumentStockMaterialLibrary.htm) — 7 members
+- [DocumentToolLibrary](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DocumentToolLibrary.htm) — 15 members
+- [DoubleHemFeatureDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DoubleHemFeatureDefinition.htm) — 9 members
+- [DraftAnalyses](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DraftAnalyses.htm) — 6 members
+- [DraftAnalysis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DraftAnalysis.htm) — 9 members
+- [DraftFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DraftFeature.htm) — 28 members
+- [DraftFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DraftFeatureInput.htm) — 13 members
+- [DraftFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DraftFeatures.htm) — 8 members
+- [Drawing](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Drawing.htm) — 13 members
+- [DrawingDocument](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DrawingDocument.htm) — 27 members
+- [DrawingExportManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DrawingExportManager.htm) — 5 members
+- [DrawingExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DrawingExportOptions.htm) — 4 members
+- [DropDownCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DropDownCommandInput.htm) — 19 members
+- [DropDownControl](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DropDownControl.htm) — 11 members
+- [DXF2DImportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DXF2DImportOptions.htm) — 11 members
+- [DXFFlatPatternExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DXFFlatPatternExportOptions.htm) — 10 members
+- [DXFSketchExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DXFSketchExportOptions.htm) — 9 members
+- [Ellipse2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Ellipse2D.htm) — 15 members
+- [Ellipse3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Ellipse3D.htm) — 16 members
+- [EllipticalArc2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/EllipticalArc2D.htm) — 21 members
+- [EllipticalArc3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/EllipticalArc3D.htm) — 18 members
+- [EllipticalCone](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/EllipticalCone.htm) — 16 members
+- [EllipticalCylinder](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/EllipticalCylinder.htm) — 15 members
+- [EmbossFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/EmbossFeature.htm) — 28 members
+- [EmbossFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/EmbossFeatureInput.htm) — 12 members
+- [EmbossFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/EmbossFeatures.htm) — 8 members
+- [EqualConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/EqualConstraint.htm) — 13 members
+- [EqualDistanceChamferEdgeSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/EqualDistanceChamferEdgeSet.htm) — 7 members
+- [EqualDistanceChamferTypeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/EqualDistanceChamferTypeDefinition.htm) — 5 members
+- [Event](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Event.htm) — 5 members
+- [EventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/EventArgs.htm) — 4 members
+- [EventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/EventHandler.htm) — 0 members
+- [ExportManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExportManager.htm) — 15 members
+- [ExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExportOptions.htm) — 5 members
+- [ExtendFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExtendFeature.htm) — 27 members
+- [ExtendFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExtendFeatureInput.htm) — 9 members
+- [ExtendFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExtendFeatures.htm) — 8 members
+- [ExtentDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExtentDefinition.htm) — 4 members
+- [ExtrudeFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExtrudeFeature.htm) — 45 members
+- [ExtrudeFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExtrudeFeatureInput.htm) — 30 members
+- [ExtrudeFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExtrudeFeatures.htm) — 9 members
+- [ExtruderMachineElement](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExtruderMachineElement.htm) — 14 members
+- [ExtruderMachineElementInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExtruderMachineElementInput.htm) — 4 members
+- [FaceContourSelection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FaceContourSelection.htm) — 12 members
+- [FaceGroup 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FaceGroup.htm) — 14 members
+- [FaceGroups 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FaceGroups.htm) — 5 members
+- [FaceRipFeatureDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FaceRipFeatureDefinition.htm) — 4 members
+- [FavoriteAppearances](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FavoriteAppearances.htm) — 8 members
+- [FavoriteMaterials](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FavoriteMaterials.htm) — 8 members
+- [Feature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Feature.htm) — 19 members
+- [FeatureList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FeatureList.htm) — 5 members
+- [Features](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Features.htm) — 83 members
+- [FileDialog](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FileDialog.htm) — 13 members
+- [FilenameProperty](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FilenameProperty.htm) — 10 members
+- [FileOpenContext](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FileOpenContext.htm) — 5 members
+- [FilletEdgeSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FilletEdgeSet.htm) — 7 members
+- [FilletEdgeSetInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FilletEdgeSetInput.htm) — 6 members
+- [FilletEdgeSetInputs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FilletEdgeSetInputs.htm) — 9 members
+- [FilletEdgeSets](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FilletEdgeSets.htm) — 9 members
+- [FilletFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FilletFeature.htm) — 29 members
+- [FilletFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FilletFeatureInput.htm) — 11 members
+- [FilletFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FilletFeatures.htm) — 12 members
+- [FitOnPathTextDefintion](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FitOnPathTextDefintion.htm) — 6 members
+- [FlangeFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FlangeFeature.htm) — 19 members
+- [FlangeFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FlangeFeatures.htm) — 6 members
+- [FlatHemFeatureDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FlatHemFeatureDefinition.htm) — 7 members
+- [FlatPattern](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FlatPattern.htm) — 27 members
+- [FlatPatternComponent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FlatPatternComponent.htm) — 78 members
+- [FlatPatternProduct](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FlatPatternProduct.htm) — 59 members
+- [FloatParameterValue](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FloatParameterValue.htm) — 6 members
+- [FloatProperty](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FloatProperty.htm) — 16 members
+- [FloatSliderCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FloatSliderCommandInput.htm) — 27 members
+- [FloatSpinnerCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FloatSpinnerCommandInput.htm) — 22 members
+- [FolderDialog](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FolderDialog.htm) — 7 members
+- [FormFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FormFeature.htm) — 22 members
+- [FormFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FormFeatures.htm) — 7 members
+- [FromEntityStartDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FromEntityStartDefinition.htm) — 7 members
+- [FullRoundFilletFaceSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FullRoundFilletFaceSet.htm) — 8 members
+- [FullRoundFilletFaceSets](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FullRoundFilletFaceSets.htm) — 6 members
+- [FullRoundFilletFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FullRoundFilletFeatureInput.htm) — 5 members
+- [FusionArchiveExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FusionArchiveExportOptions.htm) — 5 members
+- [FusionArchiveImportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FusionArchiveImportOptions.htm) — 5 members
+- [FusionDefaultUnitsPreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FusionDefaultUnitsPreferences.htm) — 7 members
+- [FusionDocument](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FusionDocument.htm) — 27 members
+- [FusionProductPreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FusionProductPreferences.htm) — 20 members
+- [FusionUnitsManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FusionUnitsManager.htm) — 17 members
+- [Future](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Future.htm) — 4 members
+- [GeneralPreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GeneralPreferences.htm) — 25 members
+- [GeneratedData](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GeneratedData.htm) — 3 members
+- [GeneratedDataCollection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GeneratedDataCollection.htm) — 6 members
+- [GenerateToolpathFuture](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GenerateToolpathFuture.htm) — 9 members
+- [GeometricConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GeometricConstraint.htm) — 9 members
+- [GeometricConstraintList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GeometricConstraintList.htm) — 5 members
+- [GeometricConstraints](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GeometricConstraints.htm) — 32 members
+- [GeometricRelationship 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GeometricRelationship.htm) — 16 members
+- [GeometricRelationships 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GeometricRelationships.htm) — 6 members
+- [GeometryGraphNodeProperty 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GeometryGraphNodeProperty.htm) — 8 members
+- [GeometrySelection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GeometrySelection.htm) — 8 members
+- [Graph 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Graph.htm) — 14 members
+- [GraphConnector 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GraphConnector.htm) — 7 members
+- [GraphicsPreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GraphicsPreferences.htm) — 17 members
+- [GraphNode 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GraphNode.htm) — 16 members
+- [GraphNodeProperties 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GraphNodeProperties.htm) — 6 members
+- [GraphNodeProperty 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GraphNodeProperty.htm) — 5 members
+- [GridPreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GridPreferences.htm) — 4 members
+- [GroupCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GroupCommandInput.htm) — 19 members
+- [HemFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HemFeature.htm) — 29 members
+- [HemFeatureDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HemFeatureDefinition.htm) — 6 members
+- [HemFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HemFeatureInput.htm) — 9 members
+- [HemFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HemFeatures.htm) — 8 members
+- [HoleFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HoleFeature.htm) — 55 members
+- [HoleFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HoleFeatureInput.htm) — 26 members
+- [HoleFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HoleFeatures.htm) — 10 members
+- [HolePositionDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HolePositionDefinition.htm) — 3 members
+- [HorizontalConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HorizontalConstraint.htm) — 12 members
+- [HorizontalPointsConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HorizontalPointsConstraint.htm) — 13 members
+- [HTMLEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HTMLEvent.htm) — 7 members
+- [HTMLEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HTMLEventArgs.htm) — 8 members
+- [HTMLEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HTMLEventHandler.htm) — 1 members
+- [HttpEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HttpEvent.htm) — 7 members
+- [HttpEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HttpEventArgs.htm) — 5 members
+- [HttpEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HttpEventHandler.htm) — 1 members
+- [HttpRequest](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HttpRequest.htm) — 15 members
+- [HttpResponse](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HttpResponse.htm) — 9 members
+- [IAddIn](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/IAddIn.htm) — 2 members
+- [IGESExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/IGESExportOptions.htm) — 5 members
+- [IGESImportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/IGESImportOptions.htm) — 5 members
+- [ImageCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ImageCommandInput.htm) — 17 members
+- [ImportManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ImportManager.htm) — 13 members
+- [ImportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ImportOptions.htm) — 5 members
+- [InCanvasRendering](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/InCanvasRendering.htm) — 12 members
+- [InferredJointInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/InferredJointInput.htm) — 4 members
+- [InfiniteLine3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/InfiniteLine3D.htm) — 15 members
+- [InputChangedEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/InputChangedEvent.htm) — 7 members
+- [InputChangedEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/InputChangedEventArgs.htm) — 6 members
+- [InputChangedEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/InputChangedEventHandler.htm) — 1 members
+- [IntegerGraphNodeProperty 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/IntegerGraphNodeProperty.htm) — 6 members
+- [IntegerParameterValue](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/IntegerParameterValue.htm) — 5 members
+- [IntegerProperty](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/IntegerProperty.htm) — 12 members
+- [IntegerSliderCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/IntegerSliderCommandInput.htm) — 27 members
+- [IntegerSpinnerCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/IntegerSpinnerCommandInput.htm) — 19 members
+- [InteractionsMachineElement](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/InteractionsMachineElement.htm) — 12 members
+- [InterferenceInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/InterferenceInput.htm) — 5 members
+- [InterferenceResult](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/InterferenceResult.htm) — 7 members
+- [InterferenceResults](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/InterferenceResults.htm) — 6 members
+- [IsoCurveAnalyses](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/IsoCurveAnalyses.htm) — 6 members
+- [IsoCurveAnalysis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/IsoCurveAnalysis.htm) — 9 members
+- [IsoparametricCurveInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/IsoparametricCurveInput.htm) — 10 members
+- [Joint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Joint.htm) — 39 members
+- [JointGeometry](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointGeometry.htm) — 28 members
+- [JointInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointInput.htm) — 16 members
+- [JointLimits](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointLimits.htm) — 9 members
+- [JointList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointList.htm) — 6 members
+- [JointMotion](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointMotion.htm) — 4 members
+- [JointOrigin](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointOrigin.htm) — 25 members
+- [JointOriginInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointOriginInput.htm) — 16 members
+- [JointOriginList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointOriginList.htm) — 6 members
+- [JointOrigins](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointOrigins.htm) — 8 members
+- [Joints](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Joints.htm) — 10 members
+- [KeyboardEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/KeyboardEvent.htm) — 7 members
+- [KeyboardEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/KeyboardEventArgs.htm) — 6 members
+- [KeyboardEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/KeyboardEventHandler.htm) — 1 members
+- [KinematicsMachineElement](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/KinematicsMachineElement.htm) — 7 members
+- [Line2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Line2D.htm) — 13 members
+- [Line3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Line3D.htm) — 17 members
+- [LinearMachineAxis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LinearMachineAxis.htm) — 12 members
+- [LinearMachineAxisConfiguration](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LinearMachineAxisConfiguration.htm) — 10 members
+- [LinearMachineAxisInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LinearMachineAxisInput.htm) — 11 members
+- [LinearMarkingMenu](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LinearMarkingMenu.htm) — 5 members
+- [LineOnPlanarSurfaceConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LineOnPlanarSurfaceConstraint.htm) — 13 members
+- [LineParallelToPlanarSurfaceConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LineParallelToPlanarSurfaceConstraint.htm) — 13 members
+- [ListControlDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ListControlDefinition.htm) — 9 members
+- [ListItem](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ListItem.htm) — 10 members
+- [ListItems](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ListItems.htm) — 8 members
+- [LoftCenterLineOrRail](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftCenterLineOrRail.htm) — 7 members
+- [LoftCenterLineOrRails](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftCenterLineOrRails.htm) — 8 members
+- [LoftDirectionEndCondition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftDirectionEndCondition.htm) — 6 members
+- [LoftEndCondition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftEndCondition.htm) — 4 members
+- [LoftFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftFeature.htm) — 33 members
+- [LoftFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftFeatureInput.htm) — 14 members
+- [LoftFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftFeatures.htm) — 8 members
+- [LoftFreeEndCondition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftFreeEndCondition.htm) — 4 members
+- [LoftPointSharpEndCondition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftPointSharpEndCondition.htm) — 4 members
+- [LoftPointTangentEndCondition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftPointTangentEndCondition.htm) — 5 members
+- [LoftSection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftSection.htm) — 14 members
+- [LoftSections](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftSections.htm) — 6 members
+- [LoftSmoothEndCondition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftSmoothEndCondition.htm) — 5 members
+- [LoftTangentEndCondition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftTangentEndCondition.htm) — 5 members
+- [Machine](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Machine.htm) — 15 members
+- [MachineAvoidDefaultSelection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineAvoidDefaultSelection.htm) — 13 members
+- [MachineAvoidDirectSelection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineAvoidDirectSelection.htm) — 13 members
+- [MachineAvoidGroups](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineAvoidGroups.htm) — 11 members
+- [MachineAvoidSelectionBase](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineAvoidSelectionBase.htm) — 12 members
+- [MachineAxis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineAxis.htm) — 11 members
+- [MachineAxisConfiguration](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineAxisConfiguration.htm) — 10 members
+- [MachineAxisConfigurations](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineAxisConfigurations.htm) — 8 members
+- [MachineAxisInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineAxisInput.htm) — 10 members
+- [MachineAxisRange](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineAxisRange.htm) — 8 members
+- [MachineCapabilities](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineCapabilities.htm) — 8 members
+- [MachineElement](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineElement.htm) — 5 members
+- [MachineElementInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineElementInput.htm) — 4 members
+- [MachineElements](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineElements.htm) — 11 members
+- [MachineFromFileInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineFromFileInput.htm) — 6 members
+- [MachineFromLibraryInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineFromLibraryInput.htm) — 6 members
+- [MachineFromTemplateInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineFromTemplateInput.htm) — 5 members
+- [MachineInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineInput.htm) — 3 members
+- [MachineInteractionPair](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineInteractionPair.htm) — 8 members
+- [MachineItem](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineItem.htm) — 5 members
+- [MachineLibrary](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineLibrary.htm) — 17 members
+- [MachinePart](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachinePart.htm) — 11 members
+- [MachinePartInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachinePartInput.htm) — 11 members
+- [MachineParts](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineParts.htm) — 8 members
+- [MachineQuery](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineQuery.htm) — 8 members
+- [MachineSpindle](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineSpindle.htm) — 9 members
+- [MachineSpindleInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineSpindleInput.htm) — 9 members
+- [MachineToolStation](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineToolStation.htm) — 7 members
+- [MachineToolStationInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineToolStationInput.htm) — 7 members
+- [MachiningTime](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachiningTime.htm) — 10 members
+- [ManufacturingModel](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ManufacturingModel.htm) — 11 members
+- [ManufacturingModelInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ManufacturingModelInput.htm) — 4 members
+- [ManufacturingModels](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ManufacturingModels.htm) — 10 members
+- [MarkingMenuEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MarkingMenuEvent.htm) — 7 members
+- [MarkingMenuEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MarkingMenuEventArgs.htm) — 7 members
+- [MarkingMenuEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MarkingMenuEventHandler.htm) — 1 members
+- [Material](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Material.htm) — 12 members
+- [MaterialLibraries](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MaterialLibraries.htm) — 8 members
+- [MaterialLibrary](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MaterialLibrary.htm) — 9 members
+- [MaterialPreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MaterialPreferences.htm) — 5 members
+- [Materials](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Materials.htm) — 8 members
+- [Matrix2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Matrix2D.htm) — 19 members
+- [Matrix3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Matrix3D.htm) — 20 members
+- [Matrix3DGraphNodeProperty 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Matrix3DGraphNodeProperty.htm) — 6 members
+- [MeasureManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeasureManager.htm) — 6 members
+- [MeasureResults](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeasureResults.htm) — 7 members
+- [MergeFacesFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MergeFacesFeatureInput.htm) — 6 members
+- [MergeFacesFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MergeFacesFeatures.htm) — 5 members
+- [MeshBodies](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshBodies.htm) — 7 members
+- [MeshBody](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshBody.htm) — 38 members
+- [MeshBodyDisplayOverrides](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshBodyDisplayOverrides.htm) — 5 members
+- [MeshBodyList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshBodyList.htm) — 5 members
+- [MeshCombineFaceGroupsFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshCombineFaceGroupsFeature.htm) — 23 members
+- [MeshCombineFaceGroupsFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshCombineFaceGroupsFeatureInput.htm) — 5 members
+- [MeshCombineFaceGroupsFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshCombineFaceGroupsFeatures.htm) — 8 members
+- [MeshCombineFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshCombineFeature.htm) — 26 members
+- [MeshCombineFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshCombineFeatureInput.htm) — 10 members
+- [MeshCombineFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshCombineFeatures.htm) — 8 members
+- [MeshConvertFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshConvertFeature.htm) — 27 members
+- [MeshConvertFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshConvertFeatureInput.htm) — 11 members
+- [MeshConvertFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshConvertFeatures.htm) — 8 members
+- [MeshFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshFeature.htm) — 19 members
+- [MeshGenerateFaceGroupsFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshGenerateFaceGroupsFeature.htm) — 26 members
+- [MeshGenerateFaceGroupsFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshGenerateFaceGroupsFeatureInput.htm) — 9 members
+- [MeshGenerateFaceGroupsFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshGenerateFaceGroupsFeatures.htm) — 8 members
+- [MeshManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshManager.htm) — 6 members
+- [MeshReduceFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshReduceFeature.htm) — 27 members
+- [MeshReduceFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshReduceFeatureInput.htm) — 10 members
+- [MeshReduceFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshReduceFeatures.htm) — 8 members
+- [MeshRemeshFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRemeshFeature.htm) — 27 members
+- [MeshRemeshFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRemeshFeatureInput.htm) — 10 members
+- [MeshRemeshFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRemeshFeatures.htm) — 8 members
+- [MeshRemoveFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRemoveFeature.htm) — 22 members
+- [MeshRemoveFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRemoveFeatureInput.htm) — 5 members
+- [MeshRemoveFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRemoveFeatures.htm) — 8 members
+- [MeshRepairFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRepairFeature.htm) — 26 members
+- [MeshRepairFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRepairFeatureInput.htm) — 9 members
+- [MeshRepairFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRepairFeatures.htm) — 8 members
+- [MeshReverseNormalFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshReverseNormalFeature.htm) — 22 members
+- [MeshReverseNormalFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshReverseNormalFeatureInput.htm) — 5 members
+- [MeshReverseNormalFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshReverseNormalFeatures.htm) — 8 members
+- [MeshSeparateFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshSeparateFeature.htm) — 25 members
+- [MeshSeparateFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshSeparateFeatureInput.htm) — 8 members
+- [MeshSeparateFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshSeparateFeatures.htm) — 8 members
+- [MeshShellFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshShellFeature.htm) — 23 members
+- [MeshShellFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshShellFeatureInput.htm) — 6 members
+- [MeshShellFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshShellFeatures.htm) — 8 members
+- [MeshSmoothFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshSmoothFeature.htm) — 23 members
+- [MeshSmoothFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshSmoothFeatureInput.htm) — 6 members
+- [MeshSmoothFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshSmoothFeatures.htm) — 8 members
+- [MFGDMDataEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MFGDMDataEvent.htm) — 7 members
+- [MFGDMDataEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MFGDMDataEventArgs.htm) — 5 members
+- [MFGDMDataEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MFGDMDataEventHandler.htm) — 1 members
+- [MidPointConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MidPointConstraint.htm) — 13 members
+- [Milestone](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Milestone.htm) — 5 members
+- [Milestones](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Milestones.htm) — 7 members
+- [MinimumRadiusAnalyses](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MinimumRadiusAnalyses.htm) — 6 members
+- [MinimumRadiusAnalysis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MinimumRadiusAnalysis.htm) — 9 members
+- [MirrorFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MirrorFeature.htm) — 28 members
+- [MirrorFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MirrorFeatureInput.htm) — 9 members
+- [MirrorFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MirrorFeatures.htm) — 8 members
+- [ModelParameter](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ModelParameter.htm) — 21 members
+- [ModelParameters](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ModelParameters.htm) — 7 members
+- [ModifyUtility](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ModifyUtility.htm) — 3 members
+- [MotionLink](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MotionLink.htm) — 23 members
+- [MotionLinkInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MotionLinkInput.htm) — 10 members
+- [MotionLinks](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MotionLinks.htm) — 8 members
+- [MouseEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MouseEvent.htm) — 7 members
+- [MouseEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MouseEventArgs.htm) — 11 members
+- [MouseEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MouseEventHandler.htm) — 1 members
+- [MoveFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MoveFeature.htm) — 30 members
+- [MoveFeatureDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MoveFeatureDefinition.htm) — 4 members
+- [MoveFeatureFreeMoveDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MoveFeatureFreeMoveDefinition.htm) — 5 members
+- [MoveFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MoveFeatureInput.htm) — 12 members
+- [MoveFeaturePointToPointDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MoveFeaturePointToPointDefinition.htm) — 6 members
+- [MoveFeaturePointToPositionDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MoveFeaturePointToPositionDefinition.htm) — 9 members
+- [MoveFeatureRotateDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MoveFeatureRotateDefinition.htm) — 6 members
+- [MoveFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MoveFeatures.htm) — 9 members
+- [MoveFeatureTranslateAlongEntityDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MoveFeatureTranslateAlongEntityDefinition.htm) — 6 members
+- [MoveFeatureTranslateXYZDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MoveFeatureTranslateXYZDefinition.htm) — 8 members
+- [MultiAxisCombinationDPMFeedrateSettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisCombinationDPMFeedrateSettings.htm) — 8 members
+- [MultiAxisDPMFeedrateSettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisDPMFeedrateSettings.htm) — 7 members
+- [MultiAxisFeedrateSettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisFeedrateSettings.htm) — 4 members
+- [MultiAxisFeedrateSettingsInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisFeedrateSettingsInput.htm) — 5 members
+- [MultiAxisInverseTimeFeedrateSettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisInverseTimeFeedrateSettings.htm) — 6 members
+- [MultiAxisMachineElement](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisMachineElement.htm) — 16 members
+- [MultiAxisMachineElementInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisMachineElementInput.htm) — 4 members
+- [MultiAxisProgrammedFeedrateSettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisProgrammedFeedrateSettings.htm) — 4 members
+- [MultiAxisRetractAndReconfigureSettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisRetractAndReconfigureSettings.htm) — 9 members
+- [MultiAxisSingularityLinearizationSettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisSingularityLinearizationSettings.htm) — 5 members
+- [MultiAxisSingularitySettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisSingularitySettings.htm) — 8 members
+- [MultiLineTextDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiLineTextDefinition.htm) — 9 members
+- [NamedValues](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NamedValues.htm) — 8 members
+- [NamedView](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NamedView.htm) — 9 members
+- [NamedViews](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NamedViews.htm) — 11 members
+- [NavigationEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NavigationEvent.htm) — 7 members
+- [NavigationEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NavigationEventArgs.htm) — 8 members
+- [NavigationEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NavigationEventHandler.htm) — 1 members
+- [NCProgram](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NCProgram.htm) — 38 members
+- [NCProgramInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NCProgramInput.htm) — 6 members
+- [NCProgramPostProcessOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NCProgramPostProcessOptions.htm) — 7 members
+- [NCPrograms](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NCPrograms.htm) — 9 members
+- [NetworkPreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NetworkPreferences.htm) — 6 members
+- [NurbsCurve2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NurbsCurve2D.htm) — 22 members
+- [NurbsCurve3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NurbsCurve3D.htm) — 22 members
+- [NurbsSurface](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NurbsSurface.htm) — 21 members
+- [ObjectCollection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ObjectCollection.htm) — 14 members
+- [ObjectVisibility](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ObjectVisibility.htm) — 14 members
+- [OBJExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OBJExportOptions.htm) — 15 members
+- [Occurrence](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Occurrence.htm) — 52 members
+- [OccurrenceList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OccurrenceList.htm) — 6 members
+- [Occurrences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Occurrences.htm) — 14 members
+- [OffsetConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OffsetConstraint.htm) — 16 members
+- [OffsetConstraintInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OffsetConstraintInput.htm) — 7 members
+- [OffsetFacesFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OffsetFacesFeature.htm) — 23 members
+- [OffsetFacesFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OffsetFacesFeatureInput.htm) — 6 members
+- [OffsetFacesFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OffsetFacesFeatures.htm) — 8 members
+- [OffsetFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OffsetFeature.htm) — 26 members
+- [OffsetFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OffsetFeatureInput.htm) — 8 members
+- [OffsetFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OffsetFeatures.htm) — 8 members
+- [OffsetStartDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OffsetStartDefinition.htm) — 7 members
+- [OnEdgeHolePositionDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OnEdgeHolePositionDefinition.htm) — 6 members
+- [OneSideToExtentDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OneSideToExtentDefinition.htm) — 6 members
+- [OpenHemFeatureDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OpenHemFeatureDefinition.htm) — 8 members
+- [Operation](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Operation.htm) — 40 members
+- [OperationBase](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OperationBase.htm) — 30 members
+- [OperationInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OperationInput.htm) — 10 members
+- [Operations](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Operations.htm) — 10 members
+- [OperationStrategy](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OperationStrategy.htm) — 18 members
+- [OptimizedOrientationResult](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OptimizedOrientationResult.htm) — 10 members
+- [OptimizedOrientationResults](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OptimizedOrientationResults.htm) — 7 members
+- [OrientedBoundingBox3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OrientedBoundingBox3D.htm) — 14 members
+- [Palette](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Palette.htm) — 25 members
+- [Palettes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Palettes.htm) — 9 members
+- [ParallelConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ParallelConstraint.htm) — 13 members
+- [Parameter](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Parameter.htm) — 16 members
+- [ParameterList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ParameterList.htm) — 13 members
+- [ParameterValue](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ParameterValue.htm) — 4 members
+- [PatchFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PatchFeature.htm) — 31 members
+- [PatchFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PatchFeatureInput.htm) — 15 members
+- [PatchFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PatchFeatures.htm) — 8 members
+- [Path](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Path.htm) — 11 members
+- [PathEntity](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PathEntity.htm) — 11 members
+- [PathPatternFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PathPatternFeature.htm) — 35 members
+- [PathPatternFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PathPatternFeatureInput.htm) — 14 members
+- [PathPatternFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PathPatternFeatures.htm) — 8 members
+- [PatternElement](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PatternElement.htm) — 10 members
+- [PatternElements](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PatternElements.htm) — 5 members
+- [PDFExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PDFExportOptions.htm) — 8 members
+- [PerpendicularConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PerpendicularConstraint.htm) — 13 members
+- [PerpendicularToSurfaceConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PerpendicularToSurfaceConstraint.htm) — 13 members
+- [PersonalUseLimits](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PersonalUseLimits.htm) — 6 members
+- [PhysicalProperties](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PhysicalProperties.htm) — 14 members
+- [PinSlotJointMotion](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PinSlotJointMotion.htm) — 14 members
+- [PipeFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PipeFeature.htm) — 34 members
+- [PipeFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PipeFeatureInput.htm) — 14 members
+- [PipeFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PipeFeatures.htm) — 8 members
+- [PlanarJointMotion](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PlanarJointMotion.htm) — 17 members
+- [Plane](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Plane.htm) — 23 members
+- [PlaneAndOffsetsHolePositionDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PlaneAndOffsetsHolePositionDefinition.htm) — 8 members
+- [PlasticRule](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PlasticRule.htm) — 20 members
+- [PlasticRules](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PlasticRules.htm) — 7 members
+- [PlasticRuleValue](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PlasticRuleValue.htm) — 5 members
+- [PMIAnnotation 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIAnnotation.htm) — 20 members
+- [PMIAnnotations 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIAnnotations.htm) — 17 members
+- [PMICreatedAnnotation 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMICreatedAnnotation.htm) — 31 members
+- [PMIDatumModifier 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIDatumModifier.htm) — 6 members
+- [PMIDatumReference 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIDatumReference.htm) — 5 members
+- [PMIDatumTarget 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIDatumTarget.htm) — 10 members
+- [PMIDisplaySettings 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIDisplaySettings.htm) — 9 members
+- [PMIGeometricValue 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIGeometricValue.htm) — 8 members
+- [PMIGeometricValueTolerance 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIGeometricValueTolerance.htm) — 24 members
+- [PMIHoleThreadNote 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIHoleThreadNote.htm) — 56 members
+- [PMIHoleThreadNoteInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIHoleThreadNoteInput.htm) — 33 members
+- [PMIHoleThreadNotes 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIHoleThreadNotes.htm) — 9 members
+- [PMIImportedDimension 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedDimension.htm) — 27 members
+- [PMIImportedDimensions 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedDimensions.htm) — 8 members
+- [PMIImportedFolder 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedFolder.htm) — 23 members
+- [PMIImportedFolders 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedFolders.htm) — 6 members
+- [PMIImportedGDTDatum 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedGDTDatum.htm) — 24 members
+- [PMIImportedGDTDatums 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedGDTDatums.htm) — 7 members
+- [PMIImportedGeometricTolerance 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedGeometricTolerance.htm) — 24 members
+- [PMIImportedGeometricTolerances 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedGeometricTolerances.htm) — 8 members
+- [PMIImportedGraphical 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedGraphical.htm) — 22 members
+- [PMIImportedGraphicals 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedGraphicals.htm) — 7 members
+- [PMIImportedNote 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedNote.htm) — 24 members
+- [PMIImportedNotes 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedNotes.htm) — 7 members
+- [PMIImportedSurfaceTexture 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedSurfaceTexture.htm) — 41 members
+- [PMIImportedSurfaceTextures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIImportedSurfaceTextures.htm) — 7 members
+- [PMIInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIInput.htm) — 11 members
+- [PMILeaderLineNote 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMILeaderLineNote.htm) — 40 members
+- [PMILeaderLineNoteInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMILeaderLineNoteInput.htm) — 18 members
+- [PMILeaderLineNotes 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMILeaderLineNotes.htm) — 9 members
+- [PMILineBreakSegment 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMILineBreakSegment.htm) — 5 members
+- [PMIRoughness 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIRoughness.htm) — 8 members
+- [PMISegment 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMISegment.htm) — 4 members
+- [PMISettings 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMISettings.htm) — 7 members
+- [PMISymbolSegment 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMISymbolSegment.htm) — 6 members
+- [PMITextSegment 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMITextSegment.htm) — 6 members
+- [PocketRecognitionSelection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PocketRecognitionSelection.htm) — 16 members
+- [PocketSelection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PocketSelection.htm) — 11 members
+- [Point2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Point2D.htm) — 18 members
+- [Point3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Point3D.htm) — 19 members
+- [PointHolePositionDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PointHolePositionDefinition.htm) — 5 members
+- [PolygonConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PolygonConstraint.htm) — 12 members
+- [PolygonMesh](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PolygonMesh.htm) — 19 members
+- [Polyline2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Polyline2D.htm) — 11 members
+- [Polyline3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Polyline3D.htm) — 11 members
+- [PostConfiguration](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PostConfiguration.htm) — 8 members
+- [PostConfigurationQuery](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PostConfigurationQuery.htm) — 8 members
+- [PostLibrary](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PostLibrary.htm) — 16 members
+- [PostProcessingMachineElement](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PostProcessingMachineElement.htm) — 10 members
+- [PostProcessInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PostProcessInput.htm) — 12 members
+- [Preferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Preferences.htm) — 14 members
+- [PrintSetting](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PrintSetting.htm) — 19 members
+- [PrintSettingItem](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PrintSettingItem.htm) — 6 members
+- [PrintSettingLibrary](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PrintSettingLibrary.htm) — 17 members
+- [PrintSettingQuery](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PrintSettingQuery.htm) — 13 members
+- [PRMExportOptions 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PRMExportOptions.htm) — 8 members
+- [Product](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Product.htm) — 12 members
+- [ProductPreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProductPreferences.htm) — 4 members
+- [ProductPreferencesCollection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProductPreferencesCollection.htm) — 6 members
+- [Products](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Products.htm) — 6 members
+- [ProductUsageData](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProductUsageData.htm) — 7 members
+- [Profile](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Profile.htm) — 13 members
+- [ProfileCurve](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProfileCurve.htm) — 13 members
+- [ProfileCurves](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProfileCurves.htm) — 5 members
+- [ProfileLoop](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProfileLoop.htm) — 9 members
+- [ProfileLoops](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProfileLoops.htm) — 5 members
+- [ProfilePlaneStartDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProfilePlaneStartDefinition.htm) — 6 members
+- [Profiles](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Profiles.htm) — 5 members
+- [ProgressBar](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProgressBar.htm) — 8 members
+- [ProgressDialog](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProgressDialog.htm) — 16 members
+- [ProjectedTextureMapControl](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProjectedTextureMapControl.htm) — 7 members
+- [Properties](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Properties.htm) — 7 members
+- [Property](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Property.htm) — 7 members
+- [PropertyGroup](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PropertyGroup.htm) — 10 members
+- [PropertyGroups](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PropertyGroups.htm) — 7 members
+- [RadialMarkingMenu](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RadialMarkingMenu.htm) — 14 members
+- [RadioButtonGroupCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RadioButtonGroupCommandInput.htm) — 17 members
+- [RecognizedHole](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RecognizedHole.htm) — 18 members
+- [RecognizedHoleGroup](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RecognizedHoleGroup.htm) — 9 members
+- [RecognizedHoleGroups](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RecognizedHoleGroups.htm) — 5 members
+- [RecognizedHoles](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RecognizedHoles.htm) — 5 members
+- [RecognizedHoleSegment](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RecognizedHoleSegment.htm) — 13 members
+- [RecognizedHolesInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RecognizedHolesInput.htm) — 5 members
+- [RecognizedPocket](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RecognizedPocket.htm) — 14 members
+- [RecognizedPocketInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RecognizedPocketInput.htm) — 7 members
+- [RecognizedPockets](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RecognizedPockets.htm) — 5 members
+- [RectangularPatternConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RectangularPatternConstraint.htm) — 25 members
+- [RectangularPatternConstraintInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RectangularPatternConstraintInput.htm) — 16 members
+- [RectangularPatternFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RectangularPatternFeature.htm) — 38 members
+- [RectangularPatternFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RectangularPatternFeatureInput.htm) — 18 members
+- [RectangularPatternFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RectangularPatternFeatures.htm) — 8 members
+- [RefoldFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RefoldFeature.htm) — 19 members
+- [RefoldFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RefoldFeatures.htm) — 6 members
+- [RemoveFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RemoveFeature.htm) — 22 members
+- [RemoveFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RemoveFeatures.htm) — 7 members
+- [RenderEnvironment](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RenderEnvironment.htm) — 7 members
+- [RenderEnvironments](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RenderEnvironments.htm) — 7 members
+- [RenderEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RenderEvent.htm) — 7 members
+- [RenderEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RenderEventArgs.htm) — 5 members
+- [RenderEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RenderEventHandler.htm) — 1 members
+- [RenderFuture](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RenderFuture.htm) — 8 members
+- [Rendering](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Rendering.htm) — 10 members
+- [RenderManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RenderManager.htm) — 10 members
+- [ReplaceFaceFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ReplaceFaceFeature.htm) — 24 members
+- [ReplaceFaceFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ReplaceFaceFeatureInput.htm) — 7 members
+- [ReplaceFaceFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ReplaceFaceFeatures.htm) — 8 members
+- [ReverseNormalFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ReverseNormalFeature.htm) — 22 members
+- [ReverseNormalFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ReverseNormalFeatures.htm) — 7 members
+- [RevoluteJointMotion](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RevoluteJointMotion.htm) — 9 members
+- [RevolveFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RevolveFeature.htm) — 35 members
+- [RevolveFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RevolveFeatureInput.htm) — 15 members
+- [RevolveFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RevolveFeatures.htm) — 8 members
+- [RibFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RibFeature.htm) — 19 members
+- [RibFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RibFeatures.htm) — 6 members
+- [RigidGroup](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RigidGroup.htm) — 16 members
+- [RigidGroupList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RigidGroupList.htm) — 6 members
+- [RigidGroups](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RigidGroups.htm) — 7 members
+- [RigidJointMotion](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RigidJointMotion.htm) — 4 members
+- [RipFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RipFeature.htm) — 26 members
+- [RipFeatureDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RipFeatureDefinition.htm) — 3 members
+- [RipFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RipFeatureInput.htm) — 6 members
+- [RipFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RipFeatures.htm) — 8 members
+- [RolledHemFeatureDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RolledHemFeatureDefinition.htm) — 8 members
+- [RopeHemFeatureDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RopeHemFeatureDefinition.htm) — 9 members
+- [RotaryMachineAxis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RotaryMachineAxis.htm) — 12 members
+- [RotaryMachineAxisConfiguration](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RotaryMachineAxisConfiguration.htm) — 14 members
+- [RotaryMachineAxisInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RotaryMachineAxisInput.htm) — 11 members
+- [RuledSurfaceFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RuledSurfaceFeature.htm) — 28 members
+- [RuledSurfaceFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RuledSurfaceFeatureInput.htm) — 13 members
+- [RuledSurfaceFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RuledSurfaceFeatures.htm) — 8 members
+- [RuleFilletFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RuleFilletFeature.htm) — 19 members
+- [RuleFilletFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RuleFilletFeatureInput.htm) — 16 members
+- [RuleFilletFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RuleFilletFeatures.htm) — 6 members
+- [RuleFilletSettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RuleFilletSettings.htm) — 16 members
+- [SATExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SATExportOptions.htm) — 5 members
+- [SATImportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SATImportOptions.htm) — 5 members
+- [SaveImageFileOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SaveImageFileOptions.htm) — 9 members
+- [ScalarControlPoint 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ScalarControlPoint.htm) — 6 members
+- [ScalarControlPointMapGraphNodeProperty 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ScalarControlPointMapGraphNodeProperty.htm) — 10 members
+- [ScalarGraphNodeProperty 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ScalarGraphNodeProperty.htm) — 6 members
+- [ScaleFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ScaleFeature.htm) — 30 members
+- [ScaleFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ScaleFeatureInput.htm) — 12 members
+- [ScaleFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ScaleFeatures.htm) — 8 members
+- [SceneSettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SceneSettings.htm) — 25 members
+- [Script](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Script.htm) — 27 members
+- [ScriptInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ScriptInput.htm) — 12 members
+- [Scripts](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Scripts.htm) — 10 members
+- [SectionAnalyses](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SectionAnalyses.htm) — 8 members
+- [SectionAnalysis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SectionAnalysis.htm) — 15 members
+- [SectionAnalysisInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SectionAnalysisInput.htm) — 9 members
+- [Selection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Selection.htm) — 5 members
+- [SelectionCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SelectionCommandInput.htm) — 27 members
+- [SelectionEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SelectionEvent.htm) — 8 members
+- [SelectionEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SelectionEventArgs.htm) — 8 members
+- [SelectionEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SelectionEventHandler.htm) — 1 members
+- [SelectionFilters](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SelectionFilters.htm) — 3 members
+- [Selections](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Selections.htm) — 12 members
+- [SelectionSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SelectionSet.htm) — 7 members
+- [SelectionSets](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SelectionSets.htm) — 7 members
+- [SeparatorCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SeparatorCommandInput.htm) — 15 members
+- [SeparatorControl](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SeparatorControl.htm) — 8 members
+- [Setup](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Setup.htm) — 53 members
+- [SetupChangeEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SetupChangeEvent.htm) — 7 members
+- [SetupChangeEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SetupChangeEventArgs.htm) — 7 members
+- [SetupChangeEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SetupChangeEventHandler.htm) — 1 members
+- [SetupEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SetupEvent.htm) — 7 members
+- [SetupEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SetupEventArgs.htm) — 5 members
+- [SetupEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SetupEventHandler.htm) — 1 members
+- [SetupInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SetupInput.htm) — 14 members
+- [Setups](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Setups.htm) — 9 members
+- [SetupVisibilityManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SetupVisibilityManager.htm) — 5 members
+- [SharedLink](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SharedLink.htm) — 8 members
+- [SharedPointCoincident](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SharedPointCoincident.htm) — 6 members
+- [SheetMetalRule](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SheetMetalRule.htm) — 22 members
+- [SheetMetalRules](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SheetMetalRules.htm) — 7 members
+- [SheetMetalRuleValue](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SheetMetalRuleValue.htm) — 5 members
+- [ShellFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ShellFeature.htm) — 28 members
+- [ShellFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ShellFeatureInput.htm) — 10 members
+- [ShellFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ShellFeatures.htm) — 8 members
+- [SilhouetteSelection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SilhouetteSelection.htm) — 13 members
+- [SilhouetteSplitFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SilhouetteSplitFeature.htm) — 24 members
+- [SilhouetteSplitFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SilhouetteSplitFeatureInput.htm) — 7 members
+- [SilhouetteSplitFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SilhouetteSplitFeatures.htm) — 8 members
+- [Sketch](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Sketch.htm) — 67 members
+- [SketchAngularDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchAngularDimension.htm) — 17 members
+- [SketchArc](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchArc.htm) — 34 members
+- [SketchArcs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchArcs.htm) — 9 members
+- [SketchCircle](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchCircle.htm) — 33 members
+- [SketchCircles](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchCircles.htm) — 10 members
+- [SketchConcentricCircleDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchConcentricCircleDimension.htm) — 17 members
+- [SketchConicCurve](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchConicCurve.htm) — 35 members
+- [SketchConicCurves](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchConicCurves.htm) — 6 members
+- [SketchControlPointSpline](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchControlPointSpline.htm) — 38 members
+- [SketchControlPointSplines](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchControlPointSplines.htm) — 6 members
+- [SketchCurve](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchCurve.htm) — 26 members
+- [SketchCurves](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchCurves.htm) — 15 members
+- [SketchDiameterDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchDiameterDimension.htm) — 16 members
+- [SketchDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchDimension.htm) — 13 members
+- [SketchDimensionList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchDimensionList.htm) — 5 members
+- [SketchDimensions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchDimensions.htm) — 17 members
+- [SketchDistanceBetweenLineAndPlanarSurfaceDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchDistanceBetweenLineAndPlanarSurfaceDimension.htm) — 17 members
+- [SketchDistanceBetweenPointAndSurfaceDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchDistanceBetweenPointAndSurfaceDimension.htm) — 17 members
+- [SketchEllipse](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchEllipse.htm) — 36 members
+- [SketchEllipseMajorRadiusDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchEllipseMajorRadiusDimension.htm) — 16 members
+- [SketchEllipseMinorRadiusDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchEllipseMinorRadiusDimension.htm) — 16 members
+- [SketchEllipses](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchEllipses.htm) — 6 members
+- [SketchEllipticalArc](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchEllipticalArc.htm) — 36 members
+- [SketchEllipticalArcs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchEllipticalArcs.htm) — 7 members
+- [SketchEntity](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchEntity.htm) — 19 members
+- [SketchEntityList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchEntityList.htm) — 5 members
+- [Sketches](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Sketches.htm) — 9 members
+- [SketchFittedSpline](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchFittedSpline.htm) — 39 members
+- [SketchFittedSplines](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchFittedSplines.htm) — 7 members
+- [SketchFixedSpline](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchFixedSpline.htm) — 34 members
+- [SketchFixedSplines](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchFixedSplines.htm) — 6 members
+- [SketchIsoparametricCurve](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchIsoparametricCurve.htm) — 15 members
+- [SketchIsoparametricCurves](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchIsoparametricCurves.htm) — 8 members
+- [SketchLine](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchLine.htm) — 33 members
+- [SketchLinearDiameterDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchLinearDiameterDimension.htm) — 17 members
+- [SketchLinearDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchLinearDimension.htm) — 18 members
+- [SketchLineList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchLineList.htm) — 5 members
+- [SketchLines](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchLines.htm) — 14 members
+- [SketchOffsetCurvesDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchOffsetCurvesDimension.htm) — 16 members
+- [SketchOffsetDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchOffsetDimension.htm) — 17 members
+- [SketchPoint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchPoint.htm) — 27 members
+- [SketchPointHolePositionDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchPointHolePositionDefinition.htm) — 4 members
+- [SketchPointList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchPointList.htm) — 5 members
+- [SketchPoints](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchPoints.htm) — 6 members
+- [SketchPointsBossPositionDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchPointsBossPositionDefinition.htm) — 4 members
+- [SketchPointsHolePositionDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchPointsHolePositionDefinition.htm) — 4 members
+- [SketchRadialDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchRadialDimension.htm) — 16 members
+- [SketchSelection](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchSelection.htm) — 11 members
+- [SketchTangentDistanceDimension](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchTangentDistanceDimension.htm) — 17 members
+- [SketchText](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchText.htm) — 37 members
+- [SketchTextDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchTextDefinition.htm) — 4 members
+- [SketchTextInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchTextInput.htm) — 17 members
+- [SketchTexts](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchTexts.htm) — 9 members
+- [SliderCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SliderCommandInput.htm) — 21 members
+- [SliderJointMotion](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SliderJointMotion.htm) — 9 members
+- [SmoothConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SmoothConstraint.htm) — 13 members
+- [SMTExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SMTExportOptions.htm) — 6 members
+- [SMTImportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SMTImportOptions.htm) — 5 members
+- [Snapshot](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Snapshot.htm) — 6 members
+- [Snapshots](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Snapshots.htm) — 8 members
+- [Sphere](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Sphere.htm) — 12 members
+- [SphereFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SphereFeature.htm) — 19 members
+- [SphereFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SphereFeatures.htm) — 6 members
+- [SplitBodyFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SplitBodyFeature.htm) — 25 members
+- [SplitBodyFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SplitBodyFeatureInput.htm) — 7 members
+- [SplitBodyFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SplitBodyFeatures.htm) — 8 members
+- [SplitButtonControl](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SplitButtonControl.htm) — 11 members
+- [SplitFaceFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SplitFaceFeature.htm) — 29 members
+- [SplitFaceFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SplitFaceFeatureInput.htm) — 11 members
+- [SplitFaceFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SplitFaceFeatures.htm) — 8 members
+- [SpunProfileInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SpunProfileInput.htm) — 9 members
+- [Status](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Status.htm) — 7 members
+- [StatusMessage](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/StatusMessage.htm) — 7 members
+- [StatusMessages](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/StatusMessages.htm) — 7 members
+- [STEPExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/STEPExportOptions.htm) — 6 members
+- [STEPImportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/STEPImportOptions.htm) — 5 members
+- [StitchFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/StitchFeature.htm) — 24 members
+- [StitchFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/StitchFeatureInput.htm) — 7 members
+- [StitchFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/StitchFeatures.htm) — 8 members
+- [STLExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/STLExportOptions.htm) — 16 members
+- [StockMaterial 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/StockMaterial.htm) — 9 members
+- [StockMaterialLibrary 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/StockMaterialLibrary.htm) — 16 members
+- [StringGraphNodeProperty 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/StringGraphNodeProperty.htm) — 6 members
+- [StringParameterValue](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/StringParameterValue.htm) — 5 members
+- [StringProperty](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/StringProperty.htm) — 8 members
+- [StringValueCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/StringValueCommandInput.htm) — 19 members
+- [Surface](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Surface.htm) — 6 members
+- [SurfaceDeleteFaceFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SurfaceDeleteFaceFeature.htm) — 22 members
+- [SurfaceDeleteFaceFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SurfaceDeleteFaceFeatures.htm) — 7 members
+- [SurfaceEvaluator](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SurfaceEvaluator.htm) — 27 members
+- [SVGImportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SVGImportOptions.htm) — 9 members
+- [SweepFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SweepFeature.htm) — 44 members
+- [SweepFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SweepFeatureInput.htm) — 25 members
+- [SweepFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SweepFeatures.htm) — 9 members
+- [SymmetricExtentDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SymmetricExtentDefinition.htm) — 8 members
+- [SymmetryConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SymmetryConstraint.htm) — 14 members
+- [TabCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TabCommandInput.htm) — 19 members
+- [TableCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TableCommandInput.htm) — 32 members
+- [TangentConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TangentConstraint.htm) — 13 members
+- [TangentRelationship](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TangentRelationship.htm) — 19 members
+- [TangentRelationshipInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TangentRelationshipInput.htm) — 5 members
+- [TangentRelationships](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TangentRelationships.htm) — 8 members
+- [TeardropHemFeatureDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TeardropHemFeatureDefinition.htm) — 9 members
+- [TemporaryBRepManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TemporaryBRepManager.htm) — 23 members
+- [TessellateFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TessellateFeature.htm) — 28 members
+- [TessellateFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TessellateFeatureInput.htm) — 11 members
+- [TessellateFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TessellateFeatures.htm) — 8 members
+- [TextBoxCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TextBoxCommandInput.htm) — 19 members
+- [TextCommandPalette](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TextCommandPalette.htm) — 26 members
+- [TextureMapControl](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TextureMapControl.htm) — 4 members
+- [TextureMapControl3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TextureMapControl3D.htm) — 6 members
+- [ThickenFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThickenFeature.htm) — 28 members
+- [ThickenFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThickenFeatureInput.htm) — 11 members
+- [ThickenFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThickenFeatures.htm) — 8 members
+- [ThreadDataQuery](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThreadDataQuery.htm) — 14 members
+- [ThreadFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThreadFeature.htm) — 32 members
+- [ThreadFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThreadFeatureInput.htm) — 13 members
+- [ThreadFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThreadFeatures.htm) — 10 members
+- [ThreadInfo](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThreadInfo.htm) — 22 members
+- [ThreeBendCornerClosureFeatureDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThreeBendCornerClosureFeatureDefinition.htm) — 12 members
+- [ThreeBendCornerClosureInputDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThreeBendCornerClosureInputDefinition.htm) — 11 members
+- [ThroughAllExtentDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThroughAllExtentDefinition.htm) — 6 members
+- [Timeline](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Timeline.htm) — 13 members
+- [TimelineGroup](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TimelineGroup.htm) — 19 members
+- [TimelineGroups](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TimelineGroups.htm) — 6 members
+- [TimelineObject](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TimelineObject.htm) — 15 members
+- [ToEntityExtentDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToEntityExtentDefinition.htm) — 10 members
+- [Tool](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Tool.htm) — 9 members
+- [Toolbar](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Toolbar.htm) — 6 members
+- [ToolbarControl](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolbarControl.htm) — 8 members
+- [ToolbarControlList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolbarControlList.htm) — 6 members
+- [ToolbarControls](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolbarControls.htm) — 10 members
+- [ToolbarPanel](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolbarPanel.htm) — 14 members
+- [ToolbarPanelList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolbarPanelList.htm) — 6 members
+- [ToolbarPanels](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolbarPanels.htm) — 7 members
+- [Toolbars](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Toolbars.htm) — 6 members
+- [ToolbarTab](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolbarTab.htm) — 15 members
+- [ToolbarTabList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolbarTabList.htm) — 6 members
+- [ToolbarTabs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolbarTabs.htm) — 7 members
+- [ToolBlock 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolBlock.htm) — 10 members
+- [ToolingCapabilitiesMachineElement](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolingCapabilitiesMachineElement.htm) — 9 members
+- [ToolingCapabilitiesMachineElementInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolingCapabilitiesMachineElementInput.htm) — 4 members
+- [ToolLibraries](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolLibraries.htm) — 16 members
+- [ToolLibrary](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolLibrary.htm) — 12 members
+- [ToolPreset](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolPreset.htm) — 6 members
+- [ToolPresets](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolPresets.htm) — 8 members
+- [ToolQuery](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolQuery.htm) — 8 members
+- [ToolQueryResult](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ToolQueryResult.htm) — 7 members
+- [Torus](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Torus.htm) — 14 members
+- [TorusFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TorusFeature.htm) — 19 members
+- [TorusFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TorusFeatures.htm) — 6 members
+- [TransformRefGraphNodeProperty 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TransformRefGraphNodeProperty.htm) — 6 members
+- [TriadCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TriadCommandInput.htm) — 79 members
+- [TriangleMesh](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TriangleMesh.htm) — 16 members
+- [TriangleMeshCalculator](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TriangleMeshCalculator.htm) — 10 members
+- [TriangleMeshList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TriangleMeshList.htm) — 6 members
+- [TrimFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TrimFeature.htm) — 24 members
+- [TrimFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TrimFeatureInput.htm) — 7 members
+- [TrimFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TrimFeatures.htm) — 8 members
+- [TSplineBodies](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TSplineBodies.htm) — 8 members
+- [TSplineBody](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TSplineBody.htm) — 9 members
+- [TurningTool 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TurningTool.htm) — 10 members
+- [TwoBendCornerClosureFeatureDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TwoBendCornerClosureFeatureDefinition.htm) — 13 members
+- [TwoBendCornerClosureInputDefinition 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TwoBendCornerClosureInputDefinition.htm) — 12 members
+- [TwoDistancesChamferEdgeSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TwoDistancesChamferEdgeSet.htm) — 9 members
+- [TwoDistancesChamferTypeDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TwoDistancesChamferTypeDefinition.htm) — 6 members
+- [TwoSidesAngleExtentDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TwoSidesAngleExtentDefinition.htm) — 6 members
+- [TwoSidesDistanceExtentDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TwoSidesDistanceExtentDefinition.htm) — 6 members
+- [TwoSidesToExtentDefinition](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TwoSidesToExtentDefinition.htm) — 7 members
+- [UnfoldFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UnfoldFeature.htm) — 19 members
+- [UnfoldFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UnfoldFeatures.htm) — 6 members
+- [UnitAndValuePreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UnitAndValuePreferences.htm) — 17 members
+- [UnitsManager](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UnitsManager.htm) — 13 members
+- [UnstitchFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UnstitchFeature.htm) — 24 members
+- [UnstitchFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UnstitchFeatures.htm) — 7 members
+- [UntrimFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UntrimFeature.htm) — 27 members
+- [UntrimFeatureInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UntrimFeatureInput.htm) — 9 members
+- [UntrimFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UntrimFeatures.htm) — 9 members
+- [URL](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/URL.htm) — 11 members
+- [USDExportOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/USDExportOptions.htm) — 5 members
+- [User](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/User.htm) — 7 members
+- [UserInterface](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UserInterface.htm) — 40 members
+- [UserInterfaceGeneralEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UserInterfaceGeneralEvent.htm) — 7 members
+- [UserInterfaceGeneralEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UserInterfaceGeneralEventArgs.htm) — 4 members
+- [UserInterfaceGeneralEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UserInterfaceGeneralEventHandler.htm) — 1 members
+- [UserParameter](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UserParameter.htm) — 19 members
+- [UserParameters](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UserParameters.htm) — 11 members
+- [ValidateInputsEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ValidateInputsEvent.htm) — 7 members
+- [ValidateInputsEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ValidateInputsEventArgs.htm) — 6 members
+- [ValidateInputsEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ValidateInputsEventHandler.htm) — 1 members
+- [ValueCommandInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ValueCommandInput.htm) — 25 members
+- [ValueInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ValueInput.htm) — 12 members
+- [VariableRadiusFilletEdgeSet](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VariableRadiusFilletEdgeSet.htm) — 14 members
+- [VariableRadiusFilletEdgeSetInput](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VariableRadiusFilletEdgeSetInput.htm) — 9 members
+- [Vector2D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Vector2D.htm) — 21 members
+- [Vector3D](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Vector3D.htm) — 23 members
+- [Vector3DGraphNodeProperty 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Vector3DGraphNodeProperty.htm) — 6 members
+- [VerticalConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VerticalConstraint.htm) — 12 members
+- [VerticalPointsConstraint](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VerticalPointsConstraint.htm) — 13 members
+- [Viewport](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Viewport.htm) — 25 members
+- [VolumetricColorSample 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricColorSample.htm) — 5 members
+- [VolumetricCustomFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricCustomFeature.htm) — 22 members
+- [VolumetricCustomFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricCustomFeatureInput.htm) — 4 members
+- [VolumetricCustomFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricCustomFeatures.htm) — 8 members
+- [VolumetricModel 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricModel.htm) — 10 members
+- [VolumetricModelToMeshFeature 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricModelToMeshFeature.htm) — 30 members
+- [VolumetricModelToMeshFeatureInput 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricModelToMeshFeatureInput.htm) — 11 members
+- [VolumetricModelToMeshFeatures 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricModelToMeshFeatures.htm) — 8 members
+- [VolumetricSample 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricSample.htm) — 4 members
+- [VolumetricSampler 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricSampler.htm) — 13 members
+- [VolumetricScalarSample 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricScalarSample.htm) — 5 members
+- [VolumetricVectorSample 🧪](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricVectorSample.htm) — 5 members
+- [WebFeature](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/WebFeature.htm) — 19 members
+- [WebFeatures](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/WebFeatures.htm) — 6 members
+- [WebRequestEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/WebRequestEvent.htm) — 7 members
+- [WebRequestEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/WebRequestEventArgs.htm) — 10 members
+- [WebRequestEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/WebRequestEventHandler.htm) — 1 members
+- [WorkingModel](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/WorkingModel.htm) — 58 members
+- [Workspace](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Workspace.htm) — 16 members
+- [WorkspaceEvent](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/WorkspaceEvent.htm) — 7 members
+- [WorkspaceEventArgs](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/WorkspaceEventArgs.htm) — 5 members
+- [WorkspaceEventHandler](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/WorkspaceEventHandler.htm) — 1 members
+- [WorkspaceList](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/WorkspaceList.htm) — 6 members
+- [Workspaces](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Workspaces.htm) — 6 members
+- [ZebraAnalyses](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ZebraAnalyses.htm) — 6 members
+- [ZebraAnalysis](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ZebraAnalysis.htm) — 9 members
+
+## Enums (260)
+
+- [AdditiveFEAAnalysisType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFEAAnalysisType.htm) — 0 members
+- [AdditiveFEACard](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFEACard.htm) — 0 members
+- [AdditiveFEAGenerationType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFEAGenerationType.htm) — 0 members
+- [AdditiveFEAMaterial](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFEAMaterial.htm) — 0 members
+- [AdditiveFEAPowderType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFEAPowderType.htm) — 0 members
+- [AdditiveFEASTLConfiguration](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveFEASTLConfiguration.htm) — 0 members
+- [AdditiveTechnologies](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AdditiveTechnologies.htm) — 0 members
+- [AppearanceSourceTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AppearanceSourceTypes.htm) — 0 members
+- [ArrangePriorities](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangePriorities.htm) — 0 members
+- [ArrangePriorityTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangePriorityTypes.htm) — 0 members
+- [ArrangeRotationTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeRotationTypes.htm) — 0 members
+- [ArrangeSolverTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ArrangeSolverTypes.htm) — 0 members
+- [AutoLookAtSketchSettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AutoLookAtSketchSettings.htm) — 0 members
+- [AutomaticGenerationModes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/AutomaticGenerationModes.htm) — 0 members
+- [BendPositionTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BendPositionTypes.htm) — 0 members
+- [BendReliefShapes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BendReliefShapes.htm) — 0 members
+- [BooleanOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BooleanOptions.htm) — 0 members
+- [BooleanTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BooleanTypes.htm) — 0 members
+- [BossAlignmentTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BossAlignmentTypes.htm) — 0 members
+- [BossHoleExtentTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BossHoleExtentTypes.htm) — 0 members
+- [BossRibExtentTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BossRibExtentTypes.htm) — 0 members
+- [BossRibShapeTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BossRibShapeTypes.htm) — 0 members
+- [BossShapeTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BossShapeTypes.htm) — 0 members
+- [BoundingBoxEntityTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BoundingBoxEntityTypes.htm) — 0 members
+- [BRepConvertOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepConvertOptions.htm) — 0 members
+- [BRepEntityTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/BRepEntityTypes.htm) — 0 members
+- [CalculationAccuracy](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CalculationAccuracy.htm) — 0 members
+- [CAM3MFSupportInclusionType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAM3MFSupportInclusionType.htm) — 0 members
+- [CAMAdditiveContainerTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CAMAdditiveContainerTypes.htm) — 0 members
+- [CameraTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CameraTypes.htm) — 0 members
+- [ChainedCurveOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChainedCurveOptions.htm) — 0 members
+- [ChamferCornerTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChamferCornerTypes.htm) — 0 members
+- [ChamferTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ChamferTypes.htm) — 0 members
+- [ClearanceHoleFits](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ClearanceHoleFits.htm) — 0 members
+- [CloseError](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CloseError.htm) — 0 members
+- [CoilFeatureSectionPositions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CoilFeatureSectionPositions.htm) — 0 members
+- [CoilFeatureSectionTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CoilFeatureSectionTypes.htm) — 0 members
+- [CoilFeatureTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CoilFeatureTypes.htm) — 0 members
+- [CommandTerminationReason](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CommandTerminationReason.htm) — 0 members
+- [ConfigurationClearanceHoleColumns](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationClearanceHoleColumns.htm) — 0 members
+- [ConfigurationFeatureAspectTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationFeatureAspectTypes.htm) — 0 members
+- [ConfigurationThreadColumns](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ConfigurationThreadColumns.htm) — 0 members
+- [ControlPointInterpolators](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ControlPointInterpolators.htm) — 0 members
+- [CornerBendTransitionTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CornerBendTransitionTypes.htm) — 0 members
+- [CornerClosureFeatureDefinitionTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CornerClosureFeatureDefinitionTypes.htm) — 0 members
+- [CornerThreeBendReliefShapeTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CornerThreeBendReliefShapeTypes.htm) — 0 members
+- [CornerTwoBendReliefPlacementTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CornerTwoBendReliefPlacementTypes.htm) — 0 members
+- [CornerTwoBendReliefShapeTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CornerTwoBendReliefShapeTypes.htm) — 0 members
+- [Curve2DTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Curve2DTypes.htm) — 0 members
+- [Curve3DTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Curve3DTypes.htm) — 0 members
+- [CustomGraphicsBillBoardStyles](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsBillBoardStyles.htm) — 0 members
+- [CustomGraphicsCullModes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsCullModes.htm) — 0 members
+- [CustomGraphicsPointTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/CustomGraphicsPointTypes.htm) — 0 members
+- [DefaultDesignTypeOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DefaultDesignTypeOptions.htm) — 0 members
+- [DefaultGroupType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DefaultGroupType.htm) — 0 members
+- [DefaultModelingOrientations](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DefaultModelingOrientations.htm) — 0 members
+- [DefaultOrbits](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DefaultOrbits.htm) — 0 members
+- [DefaultWorkspaces](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DefaultWorkspaces.htm) — 0 members
+- [DegradedSelectionDisplayStyles](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DegradedSelectionDisplayStyles.htm) — 0 members
+- [DegreeDisplayFormats](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DegreeDisplayFormats.htm) — 0 members
+- [DeleteMeError](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DeleteMeError.htm) — 0 members
+- [DesignIntentTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DesignIntentTypes.htm) — 0 members
+- [DesignTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DesignTypes.htm) — 0 members
+- [DialogResults](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DialogResults.htm) — 0 members
+- [DimensionOrientations](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DimensionOrientations.htm) — 0 members
+- [DimensionStrategyTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DimensionStrategyTypes.htm) — 0 members
+- [DistanceUnits](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DistanceUnits.htm) — 0 members
+- [DocumentTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DocumentTypes.htm) — 0 members
+- [DropDownStyles](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/DropDownStyles.htm) — 0 members
+- [ExpressionError](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExpressionError.htm) — 0 members
+- [ExtensionMethods](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExtensionMethods.htm) — 0 members
+- [ExtensionTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExtensionTypes.htm) — 0 members
+- [ExtentDirections](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExtentDirections.htm) — 0 members
+- [FeatureExtentTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FeatureExtentTypes.htm) — 0 members
+- [FeatureHealthStates](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FeatureHealthStates.htm) — 0 members
+- [FeatureOperations](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FeatureOperations.htm) — 0 members
+- [FilletFeatureTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FilletFeatureTypes.htm) — 0 members
+- [FloatParameterValueTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FloatParameterValueTypes.htm) — 0 members
+- [FootAndInchDisplayFormats](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FootAndInchDisplayFormats.htm) — 0 members
+- [FusionHubExecutionBehaviors](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FusionHubExecutionBehaviors.htm) — 0 members
+- [FutureStates](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/FutureStates.htm) — 0 members
+- [GeneratedDataType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GeneratedDataType.htm) — 0 members
+- [GenericErrors](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GenericErrors.htm) — 0 members
+- [GraphicsDrivers](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GraphicsDrivers.htm) — 0 members
+- [GraphicsPresets](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GraphicsPresets.htm) — 0 members
+- [GraphOutputNodeTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GraphOutputNodeTypes.htm) — 0 members
+- [GraphTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/GraphTypes.htm) — 0 members
+- [HemFeatureDefinitionTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HemFeatureDefinitionTypes.htm) — 0 members
+- [HoleEdgePositions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HoleEdgePositions.htm) — 0 members
+- [HoleSegmentType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HoleSegmentType.htm) — 0 members
+- [HoleTapTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HoleTapTypes.htm) — 0 members
+- [HoleTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HoleTypes.htm) — 0 members
+- [HorizontalAlignments](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HorizontalAlignments.htm) — 0 members
+- [HttpMethods](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HttpMethods.htm) — 0 members
+- [HubTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/HubTypes.htm) — 0 members
+- [InterLoopDimensionStrategyTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/InterLoopDimensionStrategyTypes.htm) — 0 members
+- [JointDirections](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointDirections.htm) — 0 members
+- [JointGeometryTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointGeometryTypes.htm) — 0 members
+- [JointKeyPointTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointKeyPointTypes.htm) — 0 members
+- [JointMotionTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointMotionTypes.htm) — 0 members
+- [JointQuadrantAngleTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointQuadrantAngleTypes.htm) — 0 members
+- [JointTangentFaceEdgePointTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointTangentFaceEdgePointTypes.htm) — 0 members
+- [JointTangentFaceTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointTangentFaceTypes.htm) — 0 members
+- [JointTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/JointTypes.htm) — 0 members
+- [KeyboardModifiers](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/KeyboardModifiers.htm) — 0 members
+- [KeyCodes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/KeyCodes.htm) — 0 members
+- [LeaderLineNotePlaneTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LeaderLineNotePlaneTypes.htm) — 0 members
+- [LibraryLocations](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LibraryLocations.htm) — 0 members
+- [LightingEnvironments](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LightingEnvironments.htm) — 0 members
+- [LinearDiameterDimensionPreferenceTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LinearDiameterDimensionPreferenceTypes.htm) — 0 members
+- [LineStylePatterns](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LineStylePatterns.htm) — 0 members
+- [ListControlDisplayTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ListControlDisplayTypes.htm) — 0 members
+- [LocalRenderStates](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LocalRenderStates.htm) — 0 members
+- [LoftEdgeAlignments](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftEdgeAlignments.htm) — 0 members
+- [LoftRailEdgeConditions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoftRailEdgeConditions.htm) — 0 members
+- [LogLevels](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LogLevels.htm) — 0 members
+- [LogTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LogTypes.htm) — 0 members
+- [LoopTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/LoopTypes.htm) — 0 members
+- [MachineAnglePreferences](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineAnglePreferences.htm) — 0 members
+- [MachineAxisCoordinates](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineAxisCoordinates.htm) — 0 members
+- [MachineAxisTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineAxisTypes.htm) — 0 members
+- [MachineCoolant](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineCoolant.htm) — 0 members
+- [MachineElementInputType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineElementInputType.htm) — 0 members
+- [MachineItemType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineItemType.htm) — 0 members
+- [MachineNonTCPInterpolationMode](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineNonTCPInterpolationMode.htm) — 0 members
+- [MachinePartTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachinePartTypes.htm) — 0 members
+- [MachineResetOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineResetOptions.htm) — 0 members
+- [MachineTCPInterpolationMode](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineTCPInterpolationMode.htm) — 0 members
+- [MachineTemplate](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachineTemplate.htm) — 0 members
+- [MachiningMode](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MachiningMode.htm) — 0 members
+- [MassUnits](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MassUnits.htm) — 0 members
+- [MaterialDisplayUnits](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MaterialDisplayUnits.htm) — 0 members
+- [MeshCombineAlgorithmTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshCombineAlgorithmTypes.htm) — 0 members
+- [MeshCombineOperationTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshCombineOperationTypes.htm) — 0 members
+- [MeshConvertAccuracyTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshConvertAccuracyTypes.htm) — 0 members
+- [MeshConvertMethodTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshConvertMethodTypes.htm) — 0 members
+- [MeshConvertOperationTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshConvertOperationTypes.htm) — 0 members
+- [MeshConvertResolutionTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshConvertResolutionTypes.htm) — 0 members
+- [MeshGenerateFaceGroupsMethodTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshGenerateFaceGroupsMethodTypes.htm) — 0 members
+- [MeshReduceMethodTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshReduceMethodTypes.htm) — 0 members
+- [MeshReduceTargetTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshReduceTargetTypes.htm) — 0 members
+- [MeshRefinementSettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRefinementSettings.htm) — 0 members
+- [MeshRemeshMethodTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRemeshMethodTypes.htm) — 0 members
+- [MeshRepairRebuildTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRepairRebuildTypes.htm) — 0 members
+- [MeshRepairTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshRepairTypes.htm) — 0 members
+- [MeshSeparateTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshSeparateTypes.htm) — 0 members
+- [MeshUnits](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MeshUnits.htm) — 0 members
+- [MessageBoxButtonTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MessageBoxButtonTypes.htm) — 0 members
+- [MessageBoxIconTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MessageBoxIconTypes.htm) — 0 members
+- [ModifyUtilityTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ModifyUtilityTypes.htm) — 0 members
+- [MouseButtons](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MouseButtons.htm) — 0 members
+- [MultiAxisDegreesPerMinuteType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisDegreesPerMinuteType.htm) — 0 members
+- [MultiAxisFeedMode](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisFeedMode.htm) — 0 members
+- [MultiAxisInverseTimeUnit](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisInverseTimeUnit.htm) — 0 members
+- [MultiAxisRetractPreference](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisRetractPreference.htm) — 0 members
+- [MultiAxisRewindPreference](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisRewindPreference.htm) — 0 members
+- [MultiAxisRotationTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisRotationTypes.htm) — 0 members
+- [MultiAxisSingularityLinearizeMethod](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/MultiAxisSingularityLinearizeMethod.htm) — 0 members
+- [NetworkProxySettings](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NetworkProxySettings.htm) — 0 members
+- [NodePinTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NodePinTypes.htm) — 0 members
+- [NoteIconColors](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NoteIconColors.htm) — 0 members
+- [NurbsSurfaceProperties](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/NurbsSurfaceProperties.htm) — 0 members
+- [OffsetCornerTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OffsetCornerTypes.htm) — 0 members
+- [OpenDocumentError](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OpenDocumentError.htm) — 0 members
+- [OperatingSystems](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OperatingSystems.htm) — 0 members
+- [OperationStates](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OperationStates.htm) — 0 members
+- [OperationStrategyTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OperationStrategyTypes.htm) — 0 members
+- [OperationTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/OperationTypes.htm) — 0 members
+- [PaletteDockingOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PaletteDockingOptions.htm) — 0 members
+- [PaletteDockingStates](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PaletteDockingStates.htm) — 0 members
+- [PaletteSnapOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PaletteSnapOptions.htm) — 0 members
+- [PanZoomOrbitShortcuts](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PanZoomOrbitShortcuts.htm) — 0 members
+- [ParameterValueTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ParameterValueTypes.htm) — 0 members
+- [PatternComputeOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PatternComputeOptions.htm) — 0 members
+- [PatternDistanceType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PatternDistanceType.htm) — 0 members
+- [PatternEntityTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PatternEntityTypes.htm) — 0 members
+- [PDFSheetsExport](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PDFSheetsExport.htm) — 0 members
+- [PipeSectionTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PipeSectionTypes.htm) — 0 members
+- [PMIAngleRelatorTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIAngleRelatorTypes.htm) — 0 members
+- [PMIDatumModifierTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIDatumModifierTypes.htm) — 0 members
+- [PMIDatumTargetTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIDatumTargetTypes.htm) — 0 members
+- [PMILaySymbolTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMILaySymbolTypes.htm) — 0 members
+- [PMISegmentTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMISegmentTypes.htm) — 0 members
+- [PMIStandardTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIStandardTypes.htm) — 0 members
+- [PMISurfaceTextureParameterTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMISurfaceTextureParameterTypes.htm) — 0 members
+- [PMISurfaceTextureStandardTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMISurfaceTextureStandardTypes.htm) — 0 members
+- [PMISurfaceTextureTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMISurfaceTextureTypes.htm) — 0 members
+- [PMISymbolTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMISymbolTypes.htm) — 0 members
+- [PMIToleranceTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIToleranceTypes.htm) — 0 members
+- [PMITypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMITypes.htm) — 0 members
+- [PMIUnitTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PMIUnitTypes.htm) — 0 members
+- [PointContainment](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PointContainment.htm) — 0 members
+- [PostCapabilities](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PostCapabilities.htm) — 0 members
+- [PostOutputUnitOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PostOutputUnitOptions.htm) — 0 members
+- [PostProcessExecutionBehaviors](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PostProcessExecutionBehaviors.htm) — 0 members
+- [PrintSettingItemTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PrintSettingItemTypes.htm) — 0 members
+- [ProgrammingLanguages](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProgrammingLanguages.htm) — 0 members
+- [ProjectedTextureMapTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ProjectedTextureMapTypes.htm) — 0 members
+- [RecognizedPocketBottomType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RecognizedPocketBottomType.htm) — 0 members
+- [RenderAspectRatios](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RenderAspectRatios.htm) — 0 members
+- [RenderResolutions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RenderResolutions.htm) — 0 members
+- [RenderSceneBackgroundTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RenderSceneBackgroundTypes.htm) — 0 members
+- [RipFeatureDefinitionTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RipFeatureDefinitionTypes.htm) — 0 members
+- [RuledSurfaceCornerTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RuledSurfaceCornerTypes.htm) — 0 members
+- [RuledSurfaceTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RuledSurfaceTypes.htm) — 0 members
+- [RuleFilletRuleTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RuleFilletRuleTypes.htm) — 0 members
+- [RuleFilletTopologyTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/RuleFilletTopologyTypes.htm) — 0 members
+- [SaveLocalErrors](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SaveLocalErrors.htm) — 0 members
+- [ScriptSourceLocations](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ScriptSourceLocations.htm) — 0 members
+- [SelectionDisplayStyles](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SelectionDisplayStyles.htm) — 0 members
+- [SetupChangeEventType](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SetupChangeEventType.htm) — 0 members
+- [SetupSheetFormats](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SetupSheetFormats.htm) — 0 members
+- [SetupStockModes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SetupStockModes.htm) — 0 members
+- [ShellTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ShellTypes.htm) — 0 members
+- [SideTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SideTypes.htm) — 0 members
+- [SilhouetteSplitOperations](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SilhouetteSplitOperations.htm) — 0 members
+- [SketchCurveConstructionStates](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchCurveConstructionStates.htm) — 0 members
+- [SketchLineCenterlineStates](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SketchLineCenterlineStates.htm) — 0 members
+- [SplineDegrees](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SplineDegrees.htm) — 0 members
+- [SplitFaceSplitTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SplitFaceSplitTypes.htm) — 0 members
+- [SplitSupportTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SplitSupportTypes.htm) — 0 members
+- [StatusMessageTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/StatusMessageTypes.htm) — 0 members
+- [SurfaceContinuityTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SurfaceContinuityTypes.htm) — 0 members
+- [SurfaceExtendAlignment](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SurfaceExtendAlignment.htm) — 0 members
+- [SurfaceExtendTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SurfaceExtendTypes.htm) — 0 members
+- [SurfaceProjectTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SurfaceProjectTypes.htm) — 0 members
+- [SurfaceTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SurfaceTypes.htm) — 0 members
+- [SweepExtentTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SweepExtentTypes.htm) — 0 members
+- [SweepOrientationTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SweepOrientationTypes.htm) — 0 members
+- [SweepProfileScalingOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SweepProfileScalingOptions.htm) — 0 members
+- [SweepSolidOrientationTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SweepSolidOrientationTypes.htm) — 0 members
+- [SymmetricDimensionStrategyTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/SymmetricDimensionStrategyTypes.htm) — 0 members
+- [TablePresentationStyles](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TablePresentationStyles.htm) — 0 members
+- [TessellateRefinementTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TessellateRefinementTypes.htm) — 0 members
+- [TextBoxKeyPoints](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TextBoxKeyPoints.htm) — 0 members
+- [TextStyles](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TextStyles.htm) — 0 members
+- [TextureTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TextureTypes.htm) — 0 members
+- [ThickenTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThickenTypes.htm) — 0 members
+- [ThinExtrudeWallLocation](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThinExtrudeWallLocation.htm) — 0 members
+- [ThreadLocations](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThreadLocations.htm) — 0 members
+- [ThreeBendReliefShapes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ThreeBendReliefShapes.htm) — 0 members
+- [TransparencyDisplayEffects](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TransparencyDisplayEffects.htm) — 0 members
+- [TriadChanges](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TriadChanges.htm) — 0 members
+- [TriangleMeshQualityOptions](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TriangleMeshQualityOptions.htm) — 0 members
+- [TwoBendReliefPlacements](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TwoBendReliefPlacements.htm) — 0 members
+- [TwoBendReliefShapes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/TwoBendReliefShapes.htm) — 0 members
+- [UnitSystems](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UnitSystems.htm) — 0 members
+- [UntrimLoopTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UntrimLoopTypes.htm) — 0 members
+- [UploadStates](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UploadStates.htm) — 0 members
+- [UserInterfaceThemes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UserInterfaceThemes.htm) — 0 members
+- [UserLanguages](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/UserLanguages.htm) — 0 members
+- [ValueInputError](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ValueInputError.htm) — 0 members
+- [ValueTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ValueTypes.htm) — 0 members
+- [VectorError](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VectorError.htm) — 0 members
+- [VerticalAlignments](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VerticalAlignments.htm) — 0 members
+- [ViewCorners](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ViewCorners.htm) — 0 members
+- [ViewOrientations](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ViewOrientations.htm) — 0 members
+- [VisualStyles](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VisualStyles.htm) — 0 members
+- [VolumetricMeshingApproachTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricMeshingApproachTypes.htm) — 0 members
+- [VolumetricMeshRefinementTypes](https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/VolumetricMeshRefinementTypes.htm) — 0 members
