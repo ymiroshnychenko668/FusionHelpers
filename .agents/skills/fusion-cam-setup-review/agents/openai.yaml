@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fusion CAM Setup Review"
+  short_description: "Audit Fusion CAM feeds, passes, and strategies"
+  default_prompt: "Use $fusion-cam-setup-review to export and review the active Fusion CAM setup."

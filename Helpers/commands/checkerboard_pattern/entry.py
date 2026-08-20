@@ -1,10 +1,11 @@
 """Instrument: Checkerboard Pattern (works IN SKETCH EDIT MODE).
 
-Select the 4 lines of a sketched rectangle and one existing sketch
-circle. The tool parametrically re-centres the circle in the rectangle
-and builds a checkerboard ("chess") grid of that circle: a full N x M
-native sketch RectangularPattern, symmetric in both directions, with the
-non-seed-parity cells suppressed so only the "dark squares" remain.
+Select one existing sketch circle. The tool builds a checkerboard
+("chess") grid from that seed: a full N x M native sketch
+RectangularPattern aligned to the sketch X/Y axes and extending in both
+directions, with the non-seed-parity cells suppressed so only the "dark
+squares" remain. For an even quantity, Fusion places the extra row or
+column on the positive sketch-axis side.
 
 The dialog mirrors Fusion's native Rectangular Pattern (Distribution +
 Quantity/Distance per direction) but is ALWAYS symmetric in both
@@ -42,13 +43,10 @@ def _selected(sel_input):
 class CheckerboardPatternCommand(InstrumentCommand):
     CMD_ID = config.cmd_id('CheckerboardPattern')
     NAME = 'Checkerboard Pattern'
-    TOOLTIP = ('In an active sketch: select the 4 lines of a rectangle '
-               'and one circle. The circle is re-centred in the '
-               'rectangle (parametrically) and a checkerboard ("chess") '
-               'pattern of it is built as a fully parametric, edge-'
-               'aligned, symmetric rectangular sketch pattern.')
+    TOOLTIP = ('In an active sketch: select one seed circle. A fully '
+               'parametric checkerboard ("chess") pattern is built '
+               'from it in both sketch X/Y directions.')
 
-    _RECT = 'rectLines'
     _CIRCLE = 'seedCircle'
     _DIST = 'distribution'
     _Q1 = 'quantity1'
@@ -67,15 +65,9 @@ class CheckerboardPatternCommand(InstrumentCommand):
 
     # ---- dialog -------------------------------------------------------
     def build_inputs(self, inputs: adsk.core.CommandInputs):
-        rect = inputs.addSelectionInput(
-            self._RECT, 'Rectangle',
-            'Select the 4 lines of the rectangle')
-        rect.addSelectionFilter('SketchLines')
-        rect.setSelectionLimits(4, 4)
-
         circle = inputs.addSelectionInput(
-            self._CIRCLE, 'Objects',
-            'Select the circle to pattern')
+            self._CIRCLE, 'Seed Circle',
+            'Select the circle to use as the checkerboard seed')
         circle.addSelectionFilter('SketchCircles')
         circle.setSelectionLimits(1, 1)
 
@@ -85,7 +77,7 @@ class CheckerboardPatternCommand(InstrumentCommand):
         for name in self._DIST_ITEMS:
             dist.listItems.add(name, name == 'Extent', '')
         dist.tooltip = ('Extent: Distance is the total span. Spacing: '
-                        'Distance is the gap between adjacent cells.')
+                        'Distance is between adjacent pattern elements.')
 
         app = adsk.core.Application.get()
         design = adsk.fusion.Design.cast(app.activeProduct)
@@ -104,20 +96,17 @@ class CheckerboardPatternCommand(InstrumentCommand):
 
         inputs.addTextBoxCommandInput(
             self._INFO, '',
-            'Pattern is symmetric in both directions; the circle is '
-            'centred in the rectangle. Direction 1 = the rectangle\'s '
-            'longer edge.', 3, True)
+            'Pattern extends in both directions from the selected '
+            'circle. Direction 1 = sketch X; Direction 2 = sketch Y. '
+            'For even quantities, the extra row or column is on the '
+            'positive-axis side.', 4, True)
 
     # ---- parameter collection ----------------------------------------
     def _params(self, inputs):
-        rect_sel = inputs.itemById(self._RECT)
         circ_sel = inputs.itemById(self._CIRCLE)
-        if rect_sel.selectionCount != 4:
-            raise ValueError('Select exactly 4 rectangle lines.')
         if circ_sel.selectionCount != 1:
             raise ValueError('Select exactly one circle.')
 
-        rect_lines = _selected(rect_sel)
         circle = _selected(circ_sel)[0]
 
         idx = inputs.itemById(self._DIST).selectedItem.index
@@ -135,8 +124,8 @@ class CheckerboardPatternCommand(InstrumentCommand):
         d1 = inputs.itemById(self._D1).expression
         d2 = inputs.itemById(self._D2).expression
 
-        return dict(rect_lines=rect_lines, circle=circle,
-                    dist_type=dist_type, q1=q1, d1=d1, q2=q2, d2=d2)
+        return dict(circle=circle, dist_type=dist_type,
+                    q1=q1, d1=d1, q2=q2, d2=d2)
 
     def _active_sketch(self, app):
         return adsk.fusion.Sketch.cast(app.activeEditObject)
@@ -145,17 +134,13 @@ class CheckerboardPatternCommand(InstrumentCommand):
     def on_validate(self, inputs, args):
         app = adsk.core.Application.get()
         try:
-            rect_sel = inputs.itemById(self._RECT)
             circ_sel = inputs.itemById(self._CIRCLE)
-            if rect_sel.selectionCount != 4 or \
-                    circ_sel.selectionCount != 1:
+            if circ_sel.selectionCount != 1:
                 args.areInputsValid = False
                 return
             sketch = self._active_sketch(app)
-            rect_lines = _selected(rect_sel)
             circle = _selected(circ_sel)[0]
-            args.areInputsValid = checkerboard.validate(
-                sketch, rect_lines, circle)
+            args.areInputsValid = checkerboard.validate(sketch, circle)
         except Exception:  # pylint: disable=broad-except
             args.areInputsValid = False
 
@@ -175,10 +160,10 @@ class CheckerboardPatternCommand(InstrumentCommand):
     def on_execute(self, inputs: adsk.core.CommandInputs):
         app = adsk.core.Application.get()
 
-        # build() is idempotent (it deletes the prior instrument-owned
-        # pattern + centring constraints first), so running it once here
-        # is deterministic whether or not a preview already ran — the
-        # preview transaction is discarded by Fusion before execute.
+        # build() is idempotent (it deletes the prior pattern for this
+        # seed first), so running it once here is deterministic whether
+        # or not a preview already ran — the preview transaction is
+        # discarded by Fusion before execute.
         result = checkerboard.build(app, preview=False,
                                     **self._params(inputs))
 
